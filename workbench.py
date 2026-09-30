@@ -3,12 +3,26 @@ from __future__ import annotations
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import urlsplit, parse_qs
+import gzip
+import hashlib
 import json
 import secrets
 import subprocess
 import sys
 import threading
 import uuid
+
+def stable_payload(value):
+    """Drop volatile timestamps so an unchanged snapshot hashes identically.
+
+    Mirrors the browser diff, which ignores every nested ``generatedAt`` key.
+    """
+    if isinstance(value, dict):
+        return {k: stable_payload(v) for k, v in value.items() if k != 'generatedAt'}
+    if isinstance(value, list):
+        return [stable_payload(v) for v in value]
+    return value
+
 
 ROOT = Path(__file__).resolve().parent
 WEB_SCRIPTS = tuple(json.loads((ROOT / 'web' / 'assets.json').read_text(encoding='utf-8')))
@@ -48,11 +62,13 @@ class Workbench:
             row['result'] = json.loads(row['result']) if row['result'] else None
         from catalog import catalog, measured_coverage
         documents=catalog(self.store,documents)
+        scopes={d['id']:d['contentScope'] for d in documents}
+        batch=self.pipeline.coverage()
         with self.lock:
             tasks = [dict(v) for v in self.active.values()]
         return dict(generatedAt=utc(), records=records, notes=notes, documents=documents,
-            sources=self.pipeline.sources(), jobs=self.pipeline.jobs(), runs=runs, readings=self.reading.list_tasks(), githubResources=self.github.state(), research=self.research.state(),
-            coverage=measured_coverage(self.pipeline,documents), legacyCoverage=self.store.library('coverage'), tasks=tasks,
+            sources=self.pipeline.sources(), jobs=self.pipeline.jobs(), runs=runs, readings=self.reading.list_tasks(), githubResources=self.github.state(), research=self.research.state(scopes=scopes),
+            coverage=measured_coverage(self.pipeline,documents,dict(batch)), legacyCoverage=self.store.library('coverage',batch=dict(batch)), tasks=tasks,
             capabilities={'html':True,'pdf':True,'rss':True,'captions':'公开字幕文件；音视频不自动转写',
                 'schedule':'Codex每日09:00 America/New_York；设备和应用须运行',
                 'independentlyVerifiedProjects':0,'fullWebExhausted':False})
@@ -195,12 +211,26 @@ def serve(store,config,port=8765):
             origin=self.headers.get('Origin')
             if origin and origin not in {'http://'+h for h in allowed}: return False
             return True
-        def respond(self,value,status=200,content_type='application/json; charset=utf-8'):
+        def respond(self,value,status=200,content_type='application/json; charset=utf-8',cache='no-store',etag=None):
             raw=value if isinstance(value,bytes) else json.dumps(value,ensure_ascii=False).encode('utf-8')
+            if etag is None and status==200 and len(raw)>=512:
+                etag='"'+hashlib.sha256(raw).hexdigest()[:32]+'"'
+            if etag and self.headers.get('If-None-Match')==etag:
+                self.send_response(304)
+                self.send_header('ETag',etag)
+                self.send_header('Cache-Control',cache)
+                self.send_header('X-Content-Type-Options','nosniff')
+                self.end_headers(); return
+            encoding=None
+            if len(raw)>=1024 and 'gzip' in (self.headers.get('Accept-Encoding') or '').lower():
+                raw=gzip.compress(raw,6); encoding='gzip'
             self.send_response(status)
             self.send_header('Content-Type',content_type)
             self.send_header('Content-Length',str(len(raw)))
-            self.send_header('Cache-Control','no-store')
+            self.send_header('Cache-Control',cache)
+            if etag: self.send_header('ETag',etag)
+            if encoding:
+                self.send_header('Content-Encoding',encoding); self.send_header('Vary','Accept-Encoding')
             self.send_header('X-Content-Type-Options','nosniff')
             self.send_header('Content-Security-Policy',"default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; frame-ancestors 'none'; base-uri 'none'")
             self.end_headers(); self.wfile.write(raw)
@@ -212,7 +242,12 @@ def serve(store,config,port=8765):
                 elif path.startswith('/api/plugin/'):
                     from plugin_api import PluginAPI
                     self.respond(PluginAPI(app).dispatch(path,{k:v[0] for k,v in parse_qs(urlsplit(self.path).query).items()}))
-                elif path=='/api/state': self.respond(app.state())
+                elif path=='/api/state':
+                    state=app.state()
+                    # generatedAt changes every call; hash the payload without it so an
+                    # unchanged library still yields 304 Not Modified.
+                    marker=json.dumps(stable_payload(state),ensure_ascii=False,sort_keys=True).encode('utf-8')
+                    self.respond(state,etag='"'+hashlib.sha256(marker).hexdigest()[:32]+'"')
                 elif path=='/api/github': self.respond(app.github.state())
                 elif path=='/api/research': self.respond(app.research.state())
                 elif path=='/api/lab': self.respond(app.lab.state())
@@ -227,7 +262,7 @@ def serve(store,config,port=8765):
                 elif path == '/' or path[1:] in WEB_ASSETS:
                     name='index.html' if path=='/' else path[1:]
                     kind=WEB_ASSETS[name]
-                    self.respond((ROOT/'web'/name).read_bytes(),content_type=kind+'; charset=utf-8')
+                    self.respond((ROOT/'web'/name).read_bytes(),content_type=kind+'; charset=utf-8',cache='no-cache')
                 else: self.respond({'error':'NOT_FOUND'},404)
             except ValueError as exc: self.respond({'error':str(exc)},400)
         def do_POST(self):

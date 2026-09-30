@@ -1,14 +1,24 @@
 "use strict";
 
+// Remembers the last /api/state validator so an unchanged library costs a 304
+// instead of a full re-serialisation and re-parse on every poll.
+let stateEtag = null;
+
 async function api(path, body, retry = true) {
   const options = { cache: "no-store", headers: { "Accept": "application/json" } };
+  // Only the state read is conditional; every mutation stays unconditional.
+  const conditional = body === undefined && path === "/api/state" && Boolean(stateEtag);
   if (body !== undefined) {
     options.method = "POST";
     options.headers["Content-Type"] = "application/json";
     options.headers["X-Radar-Token"] = app.token;
     options.body = JSON.stringify(body);
+  } else if (conditional) {
+    options.headers["If-None-Match"] = stateEtag;
   }
   const response = await fetch(path, options);
+  // The server confirmed the snapshot is unchanged; keep the one already in memory.
+  if (conditional && response.status === 304) return null;
   let data;
   try {
     data = await response.json();
@@ -29,6 +39,8 @@ async function api(path, body, retry = true) {
         ? data.error
         : data?.message || "请求失败（HTTP " + response.status + "）",
     );
+  if (body === undefined && path === "/api/state")
+    stateEtag = response.headers?.get?.("ETag") ?? null;
   return data;
 }
 
@@ -51,6 +63,13 @@ async function refresh(renderAll = true) {
     const next = await api("/api/state");
     const stateText = (value) =>
       JSON.stringify(value, (key, item) => (key === "generatedAt" ? undefined : item));
+    if (next === null) {
+      app.lastSeen = new Date();
+      $("connection-status").textContent = "本地服务已连接";
+      $("connection-dot").className = "connected";
+      renderRefreshTime();
+      return;
+    }
     let changed = stateText(next) !== stateText(app.data);
     app.data = next;
     app.lastSeen = new Date();
