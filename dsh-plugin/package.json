@@ -1,0 +1,15 @@
+{
+  "name": "dsh-plugin-fde-radar",
+  "version": "0.1.1",
+  "description": "FDE、本体与 AI 研究雷达：原文库、采集、GitHub 开源资源和待复核研究",
+  "type": "module",
+  "main": "index.mjs",
+  "exports": { ".": "./index.mjs" },
+  "files": ["index.mjs", "client.mjs", "tools.mjs", "cordis.patch.yml", "README.md"],
+  "engines": { "node": ">=22" },
+  "peerDependencies": { "@deepseek-ai/dsh-tools": "0.1.5-rc.1", "@deepseek-ai/schemastery": "^3.18.2" },
+  "devDependencies": { "@deepseek-ai/dsh-tools": "0.1.5-rc.1", "@deepseek-ai/schemastery": "^3.18.2" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "keywords": ["dsh-plugin", "fde", "ontology", "research"],
+  "license": "UNLICENSED"
+}

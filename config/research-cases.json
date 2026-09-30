@@ -1,0 +1,995 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "id": "case-airbus-skywise-2017",
+      "title": "Airbus launches Skywise – aviation’s open data platform | Airbus",
+      "classification": "customer_launch_disclosure_fde_unproven",
+      "editorialNote": "研究索引，保留 2017 年启动稿原标题，并补充 Airbus 2017 年具名实施、2018 年 easyJet 协议、2024 年 SFP+ 运营披露。各年份分别阅读，不将后续效果倒填为启动期承诺或 2026 年新项目；这些仍是参与方披露，未独立证明 FDE 编制、本体模型或自主 Agent。以下中文字段是带出处的审读判断，不替代原文。",
+      "claims": [
+        {
+          "key": "project",
+          "label": "项目与时间",
+          "value": "Airbus 披露推出 Skywise 航空数据平台，原文发布日期为 2017-06-20。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-3094609758e64997af1b72318353803f",
+              "sha256": "4a268e453ede9de4c9b0a2c20aacba26bb1a92f2d5c1b9c4fa157516f23475d0",
+              "quote": "Skywise"
+            },
+            {
+              "documentId": "doc-3094609758e64997af1b72318353803f",
+              "sha256": "4a268e453ede9de4c9b0a2c20aacba26bb1a92f2d5c1b9c4fa157516f23475d0",
+              "quote": "20 June 2017"
+            }
+          ]
+        },
+        {
+          "key": "customer",
+          "label": "客户或采购人",
+          "value": "Airbus 是平台发起及披露主体；2017 年补充材料列出已部署 Skywise 的具名航空公司 easyJet。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-3094609758e64997af1b72318353803f",
+              "sha256": "4a268e453ede9de4c9b0a2c20aacba26bb1a92f2d5c1b9c4fa157516f23475d0",
+              "quote": "Airbus"
+            },
+            {
+              "documentId": "doc-c3dd74626bb54bd193545187fa8cea3c",
+              "sha256": "5474c63fcb557d47c2bf275aaacc06845e0df5eaafd63a9aaef96700eabdd3d4",
+              "quote": "Airbus and easyJet"
+            }
+          ]
+        },
+        {
+          "key": "provider",
+          "label": "供应方",
+          "value": "合作方为 Palantir Technologies。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-3094609758e64997af1b72318353803f",
+              "sha256": "4a268e453ede9de4c9b0a2c20aacba26bb1a92f2d5c1b9c4fa157516f23475d0",
+              "quote": "Palantir Technologies"
+            }
+          ]
+        },
+        {
+          "key": "problem",
+          "label": "业务问题",
+          "value": "发布稿提出改善运营表现的目标；尚不能据此量化现状痛点。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-3094609758e64997af1b72318353803f",
+              "sha256": "4a268e453ede9de4c9b0a2c20aacba26bb1a92f2d5c1b9c4fa157516f23475d0",
+              "quote": "operational performance"
+            }
+          ]
+        },
+        {
+          "key": "scope",
+          "label": "建设范围",
+          "value": "2017 年发布稿列明工单、备件消耗等数据整合范围。2018 年后续公告称 easyJet 签署五年预测维护服务协议，覆盖当时接近 300 架飞机的机队；协议覆盖范围不等于逐机上线记录，数据清单也不等于本体模式。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-3094609758e64997af1b72318353803f",
+              "sha256": "4a268e453ede9de4c9b0a2c20aacba26bb1a92f2d5c1b9c4fa157516f23475d0",
+              "quote": "work orders; spares consumption"
+            },
+            {
+              "documentId": "doc-003d954f231f487fbb61ad85c893dfae",
+              "sha256": "472a1c9cb6928ae4989c51c1eb71265794b9cb7ea779b255d00f910ad5fbbe6e",
+              "quote": "five year agreement"
+            },
+            {
+              "documentId": "doc-003d954f231f487fbb61ad85c893dfae",
+              "sha256": "472a1c9cb6928ae4989c51c1eb71265794b9cb7ea779b255d00f910ad5fbbe6e",
+              "quote": "fleet approaching 300 aircraft"
+            }
+          ]
+        },
+        {
+          "key": "delivery",
+          "label": "交付方式",
+          "value": "2017 年启动稿提出按用户定制；同年具名实施稿称 Airbus 与 easyJet 围绕其前 100 项运营问题合作并构建定制应用。未披露人员编制、驻场职责和具体工期。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-3094609758e64997af1b72318353803f",
+              "sha256": "4a268e453ede9de4c9b0a2c20aacba26bb1a92f2d5c1b9c4fa157516f23475d0",
+              "quote": "tailored for each user"
+            },
+            {
+              "documentId": "doc-c3dd74626bb54bd193545187fa8cea3c",
+              "sha256": "5474c63fcb557d47c2bf275aaacc06845e0df5eaafd63a9aaef96700eabdd3d4",
+              "quote": "top-100 operational issues"
+            },
+            {
+              "documentId": "doc-c3dd74626bb54bd193545187fa8cea3c",
+              "sha256": "5474c63fcb557d47c2bf275aaacc06845e0df5eaafd63a9aaef96700eabdd3d4",
+              "quote": "a fully customized application"
+            }
+          ]
+        },
+        {
+          "key": "fde",
+          "label": "FDE 模式证据",
+          "value": "未知：未发现此版本明确的 FDE 岗位、驻场职责或产品反馈机制证据。",
+          "status": "unknown",
+          "evidence": []
+        },
+        {
+          "key": "ontology",
+          "label": "本体或图谱证据",
+          "value": "未知：此版本没有可核对的对象类型、关系、约束或本体模式文件。不能从 Palantir 合作关系反推。",
+          "status": "unknown",
+          "evidence": []
+        },
+        {
+          "key": "agent",
+          "label": "Agent 证据",
+          "value": "未知：预测性维护与分析工具的描述不能证明使用了大模型 Agent。",
+          "status": "unknown",
+          "evidence": []
+        },
+        {
+          "key": "production",
+          "label": "实际运行",
+          "value": "2017 年启动稿称已有早期采用者；具名补充稿进一步称 Airbus 与 easyJet 已部署 Skywise 数据平台。仍未取得逐机上线清单或客户验收，不能据这些时间点证明其间不间断运行。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-3094609758e64997af1b72318353803f",
+              "sha256": "4a268e453ede9de4c9b0a2c20aacba26bb1a92f2d5c1b9c4fa157516f23475d0",
+              "quote": "already Skywise early adopters"
+            },
+            {
+              "documentId": "doc-c3dd74626bb54bd193545187fa8cea3c",
+              "sha256": "5474c63fcb557d47c2bf275aaacc06845e0df5eaafd63a9aaef96700eabdd3d4",
+              "quote": "have deployed the new Skywise data platform"
+            }
+          ]
+        },
+        {
+          "key": "outcome",
+          "label": "结果与效果",
+          "value": "2024 年 Airbus 后续文章称，easyJet 使用 SFP+ 于 2024 年 7 月避免 44 次航班取消，次月避免 35 次。这是后续产品的参与方效果披露，不能归入 2017 年启动期结果；避免取消的反事实计算方法、基线和独立审计仍未知。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-ded06620a6fa4a7a9f7a8c676962974b",
+              "sha256": "9fd4d1f13997a3649793128a4b8da1f277ff81eeb9bd5a926710f3f3f72083e5",
+              "quote": "Skywise Fleet Performance+ (SFP+)"
+            },
+            {
+              "documentId": "doc-ded06620a6fa4a7a9f7a8c676962974b",
+              "sha256": "9fd4d1f13997a3649793128a4b8da1f277ff81eeb9bd5a926710f3f3f72083e5",
+              "quote": "July 2024"
+            },
+            {
+              "documentId": "doc-ded06620a6fa4a7a9f7a8c676962974b",
+              "sha256": "9fd4d1f13997a3649793128a4b8da1f277ff81eeb9bd5a926710f3f3f72083e5",
+              "quote": "avoid 44 flight cancellations"
+            },
+            {
+              "documentId": "doc-ded06620a6fa4a7a9f7a8c676962974b",
+              "sha256": "9fd4d1f13997a3649793128a4b8da1f277ff81eeb9bd5a926710f3f3f72083e5",
+              "quote": "The following month, 35 cancellations were avoided."
+            }
+          ]
+        },
+        {
+          "key": "price",
+          "label": "金额与价格口径",
+          "value": "未知：未披露本项目合同价、预算、平台费用或付款情况；文中公司收入不得作为项目金额。",
+          "status": "unknown",
+          "evidence": []
+        },
+        {
+          "key": "acceptance",
+          "label": "验收",
+          "value": "未知：未取得签署的验收结论、测试报告或客户运行记录。",
+          "status": "unknown",
+          "evidence": []
+        }
+      ],
+      "gaps": [
+        "已有 2017 年 easyJet 部署、2018 年协议及 2024 年 SFP+ 披露；仍需航空公司自己的逐机上线清单、合同变更与当前运行记录，不据三篇材料推断连续运行。",
+        "取得设备、工单、备件、构型与技术文档的对象关系及版本规则，不能仅按数据清单推断本体。",
+        "取得交付团队职责、现场调研与迭代记录，判断是否具备 FDE 工作方式；定制开发不能单独证明 FDE 岗位组织。",
+        "取得 SFP+ 避免航班取消的计算规则、实际故障与维护记录及对照基线，明确供应方估计与客户实测的差别。",
+        "取得合同价格及验收材料；不可引用集团营收、行业市场规模或五年期限填补合同金额。"
+      ],
+      "nextAcquisition": [],
+      "transfer": {
+        "usable": [
+          "研究建议：先把设备、工单、备件和文档版本列为企业数据盘点清单。",
+          "研究建议：以可追溯的维修资料查询作为小范围起点。"
+        ],
+        "conditions": [
+          "必须取得设备唯一标识、历史工单和文档版本的可关联样本。",
+          "须由维修人员核对建议并建立适用性与拒答规则。"
+        ],
+        "notProven": [
+          "未证明通用本体可直接复制到任何工厂。",
+          "未证明自主诊断、自动放行或成本收益。",
+          "未证明此案例按 FDE 岗位组织交付。",
+          "2024 年避免航班取消的披露不能替代独立效果测量，也不能倒填到 2017 年。"
+        ]
+      }
+    },
+    {
+      "id": "case-mccarthy-pulse-2026",
+      "title": "McCarthy and Palantir Announce Strategic Partnership to Bring AI to the Construction Field and Beyond | McCarthy",
+      "classification": "customer_disclosure_ontology_embedded_engineering",
+      "editorialNote": "研究索引，依据 McCarthy 客户官网合作公告。公告明确本体和嵌入式工程师建制；不能因此自动补出 FDE 编制细则、自主 Agent 架构或量化收益。所有 disclosed 均表示该来源披露，不表示独立核验。",
+      "claims": [
+        {
+          "key": "project",
+          "label": "项目与时间",
+          "value": "具名系统为 Pulse，属于客户披露的施工运营 AI 方案。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-9baf7b329c78490191ab88a20fa6e2fb",
+              "sha256": "aaf2775de8bf999e809187c99990a6b521717948e0f8f12435bec06556f32760",
+              "quote": "Pulse"
+            }
+          ]
+        },
+        {
+          "key": "customer",
+          "label": "客户或采购人",
+          "value": "客户及公告发布者为 McCarthy。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-9baf7b329c78490191ab88a20fa6e2fb",
+              "sha256": "aaf2775de8bf999e809187c99990a6b521717948e0f8f12435bec06556f32760",
+              "quote": "McCarthy"
+            }
+          ]
+        },
+        {
+          "key": "provider",
+          "label": "供应方",
+          "value": "合作平台供应方为 Palantir。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-9baf7b329c78490191ab88a20fa6e2fb",
+              "sha256": "aaf2775de8bf999e809187c99990a6b521717948e0f8f12435bec06556f32760",
+              "quote": "Palantir"
+            }
+          ]
+        },
+        {
+          "key": "problem",
+          "label": "业务问题",
+          "value": "公告将劳动力短缺列为拟应对的行业问题；未提供该客户的量化基线。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-9baf7b329c78490191ab88a20fa6e2fb",
+              "sha256": "aaf2775de8bf999e809187c99990a6b521717948e0f8f12435bec06556f32760",
+              "quote": "labor shortages"
+            }
+          ]
+        },
+        {
+          "key": "scope",
+          "label": "建设范围",
+          "value": "范围涉及施工现场执行工作流；具体已上线模块需另行验证。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-9baf7b329c78490191ab88a20fa6e2fb",
+              "sha256": "aaf2775de8bf999e809187c99990a6b521717948e0f8f12435bec06556f32760",
+              "quote": "field execution"
+            }
+          ]
+        },
+        {
+          "key": "delivery",
+          "label": "交付方式",
+          "value": "公告提及由内部应用团队开发企业软件；人员投入和外包边界未披露。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-9baf7b329c78490191ab88a20fa6e2fb",
+              "sha256": "aaf2775de8bf999e809187c99990a6b521717948e0f8f12435bec06556f32760",
+              "quote": "internal applications team"
+            }
+          ]
+        },
+        {
+          "key": "fde",
+          "label": "FDE 模式证据",
+          "value": "披露内部嵌入式工程师建制，但未证明正式 FDE 岗位或完整共创、交付及产品反馈机制；也不能据此断言 Palantir FDE 已参与。保留相关原文供继续核对。",
+          "status": "unknown",
+          "evidence": [
+            {
+              "documentId": "doc-9baf7b329c78490191ab88a20fa6e2fb",
+              "sha256": "aaf2775de8bf999e809187c99990a6b521717948e0f8f12435bec06556f32760",
+              "quote": "embedded engineers"
+            }
+          ]
+        },
+        {
+          "key": "ontology",
+          "label": "本体或图谱证据",
+          "value": "公告明确表示施工知识与工作流建模于 Palantir Ontology；对象模式及约束文件尚未公开取得。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-9baf7b329c78490191ab88a20fa6e2fb",
+              "sha256": "aaf2775de8bf999e809187c99990a6b521717948e0f8f12435bec06556f32760",
+              "quote": "Palantir’s Ontology"
+            }
+          ]
+        },
+        {
+          "key": "agent",
+          "label": "Agent 证据",
+          "value": "未知：AI/AIP 平台名称不足以证明自主 Agent 的工具权限、执行闭环或人工审批边界。",
+          "status": "unknown",
+          "evidence": []
+        },
+        {
+          "key": "production",
+          "label": "实际运行",
+          "value": "公告声称 Pulse 支持在建工地决策；未取得具体站点清单和运行验收。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-9baf7b329c78490191ab88a20fa6e2fb",
+              "sha256": "aaf2775de8bf999e809187c99990a6b521717948e0f8f12435bec06556f32760",
+              "quote": "active job sites"
+            }
+          ]
+        },
+        {
+          "key": "outcome",
+          "label": "结果与效果",
+          "value": "未知：尚无可复核的施工效率、成本、安全或质量指标及对照基线。",
+          "status": "unknown",
+          "evidence": []
+        },
+        {
+          "key": "price",
+          "label": "金额与价格口径",
+          "value": "2026-06-11 公告仅披露多年、数百万 dollar 量级的合作措辞；未明确币种代码、精确合同金额、合同拆分或付款情况，不能直接视为已核对的美元合同价。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-9baf7b329c78490191ab88a20fa6e2fb",
+              "sha256": "aaf2775de8bf999e809187c99990a6b521717948e0f8f12435bec06556f32760",
+              "quote": "multi-year, multi-million-dollar"
+            },
+            {
+              "documentId": "doc-9baf7b329c78490191ab88a20fa6e2fb",
+              "sha256": "aaf2775de8bf999e809187c99990a6b521717948e0f8f12435bec06556f32760",
+              "quote": "June 11, 2026"
+            }
+          ]
+        },
+        {
+          "key": "acceptance",
+          "label": "验收",
+          "value": "未知：未取得验收标准、测试范围、签署结论或运行 SLA。",
+          "status": "unknown",
+          "evidence": []
+        }
+      ],
+      "gaps": [
+        "补取 Pulse 的站点部署清单、已上线与计划中的功能区分。",
+        "补取施工对象类型、权限、变更流程、审核动作及完整数据字典。",
+        "补取内部嵌入式工程师职责、合作方职责和问题反馈到产品的记录。",
+        "补取合同精确金额、币种及范围；数百万量级不应转写成确定报价。",
+        "补取客户验收与效益测量材料，不能用员工主观评价替代指标。"
+      ],
+      "nextAcquisition": [
+        {
+          "url": "https://www.mccarthy.com/insights/mccarthy-and-palantir-announce-strategic-partnership-to-bring-ai-to-the-construction-field",
+          "purpose": "持续跟踪客户主源的后续实施链接，取得 Pulse 演示、站点运行与验收材料；当前公告本身不补足这些缺口。"
+        }
+      ],
+      "transfer": {
+        "usable": [
+          "研究建议：从现场执行中的一个具体决策问题起步，梳理对象、约束和责任人。",
+          "研究建议：让应用工程师参与现场流程观察，并把反馈写入可追踪的产品任务。"
+        ],
+        "conditions": [
+          "需明确项目、任务、资源、合同与现场事件的关联标识。",
+          "需分别定义只读建议、人工批准及可执行动作的权限。",
+          "需在施工团队参与下建立验收基线与异常处置流程。"
+        ],
+        "notProven": [
+          "未证明部署 AIP 就等于部署自主 Agent。",
+          "未证明所有公告列出的业务模块已经上线。",
+          "未证明工程师建制可以直接复制为特定编制或报价。"
+        ]
+      }
+    },
+    {
+      "id": "case-china-endemic-disease-kg-2026",
+      "title": "中国疾病预防控制中心地方病控制中心地方病知识图谱智能化系统和“一带一路”地方病防治研究协作平台建设中标（成交）结果公告",
+      "classification": "public_procurement_award_knowledge_graph_fde_unproven",
+      "editorialNote": "研究索引，依据政府采购成交公告。该案能够确认具名知识图谱采购与成交金额；成交不等于交付、上线或验收，项目名称出现知识图谱不等于已证明本体或 FDE 方法。",
+      "claims": [
+        {
+          "key": "project",
+          "label": "项目与时间",
+          "value": "采购项目为地方病知识图谱智能化系统及“一带一路”地方病防治研究协作平台建设。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-2c1f4cf702e142cd8c609245c5fe0145",
+              "sha256": "862e06d325a4610165af14fbf67d4c25878c9562d4f6ff2a1520102abf296fe9",
+              "quote": "地方病知识图谱智能化系统"
+            },
+            {
+              "documentId": "doc-2c1f4cf702e142cd8c609245c5fe0145",
+              "sha256": "862e06d325a4610165af14fbf67d4c25878c9562d4f6ff2a1520102abf296fe9",
+              "quote": "“一带一路”地方病防治研究协作平台建设"
+            }
+          ]
+        },
+        {
+          "key": "customer",
+          "label": "客户或采购人",
+          "value": "采购人为中国疾病预防控制中心地方病控制中心。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-2c1f4cf702e142cd8c609245c5fe0145",
+              "sha256": "862e06d325a4610165af14fbf67d4c25878c9562d4f6ff2a1520102abf296fe9",
+              "quote": "中国疾病预防控制中心地方病控制中心"
+            }
+          ]
+        },
+        {
+          "key": "provider",
+          "label": "供应方",
+          "value": "成交供应商为哈尔滨佳博科技开发有限公司。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-2c1f4cf702e142cd8c609245c5fe0145",
+              "sha256": "862e06d325a4610165af14fbf67d4c25878c9562d4f6ff2a1520102abf296fe9",
+              "quote": "哈尔滨佳博科技开发有限公司"
+            }
+          ]
+        },
+        {
+          "key": "problem",
+          "label": "业务问题",
+          "value": "未知：结果公告没有给出可审读的需求调研与现状问题清单。",
+          "status": "unknown",
+          "evidence": []
+        },
+        {
+          "key": "scope",
+          "label": "建设范围",
+          "value": "标的品目披露为基础软件开发服务；具体功能与数据范围须以磋商文件核对。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-2c1f4cf702e142cd8c609245c5fe0145",
+              "sha256": "862e06d325a4610165af14fbf67d4c25878c9562d4f6ff2a1520102abf296fe9",
+              "quote": "基础软件开发服务"
+            }
+          ]
+        },
+        {
+          "key": "delivery",
+          "label": "交付方式",
+          "value": "服务时间为自合同签订之日起 90 日历日内；实际签约日与完工日未知。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-2c1f4cf702e142cd8c609245c5fe0145",
+              "sha256": "862e06d325a4610165af14fbf67d4c25878c9562d4f6ff2a1520102abf296fe9",
+              "quote": "自合同签订之日起90日历日内"
+            }
+          ]
+        },
+        {
+          "key": "fde",
+          "label": "FDE 模式证据",
+          "value": "未知：未取得驻场、联合建模、交付团队角色或持续产品化机制证据。",
+          "status": "unknown",
+          "evidence": []
+        },
+        {
+          "key": "ontology",
+          "label": "本体或图谱证据",
+          "value": "未知：项目名称明确知识图谱，但未取得本体对象、关系、约束及其实施方案。",
+          "status": "unknown",
+          "evidence": []
+        },
+        {
+          "key": "agent",
+          "label": "Agent 证据",
+          "value": "未知：未取得大模型、Agent 工具调用或人工审批机制说明。",
+          "status": "unknown",
+          "evidence": []
+        },
+        {
+          "key": "production",
+          "label": "实际运行",
+          "value": "未知：成交公告不能证明系统已上线运行。",
+          "status": "unknown",
+          "evidence": []
+        },
+        {
+          "key": "outcome",
+          "label": "结果与效果",
+          "value": "未知：未取得使用量、问答/检索质量、业务效果或独立测试结果。",
+          "status": "unknown",
+          "evidence": []
+        },
+        {
+          "key": "price",
+          "label": "金额与价格口径",
+          "value": "2026-04-02 公告的成交金额为人民币 59.8 万元，即 598,000.00 元；这是成交口径，不是预算上限、累计业务金额、实际付款或已核对的合同结算价。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-2c1f4cf702e142cd8c609245c5fe0145",
+              "sha256": "862e06d325a4610165af14fbf67d4c25878c9562d4f6ff2a1520102abf296fe9",
+              "quote": "总成交金额￥59.800000 万元（人民币）"
+            },
+            {
+              "documentId": "doc-2c1f4cf702e142cd8c609245c5fe0145",
+              "sha256": "862e06d325a4610165af14fbf67d4c25878c9562d4f6ff2a1520102abf296fe9",
+              "quote": "2026年04月02日"
+            }
+          ]
+        },
+        {
+          "key": "acceptance",
+          "label": "验收",
+          "value": "未知：公告引用磋商文件服务标准，未取得验收指标明细或签署的验收结果。",
+          "status": "unknown",
+          "evidence": [
+            {
+              "documentId": "doc-2c1f4cf702e142cd8c609245c5fe0145",
+              "sha256": "862e06d325a4610165af14fbf67d4c25878c9562d4f6ff2a1520102abf296fe9",
+              "quote": "满足磋商文件要求服务标准"
+            }
+          ]
+        }
+      ],
+      "gaps": [
+        "优先取得报价明细附件，核对分项服务、数量、单价和税费口径。",
+        "取得完整磋商文件及采购需求，定位本体/图谱、AI 和交付组织要求。",
+        "取得正式合同，核对签署日期、90 日历日起算、付款节点及变更条款。",
+        "取得验收方案与结果公告，确认实际交付、部署范围和运行情况。",
+        "核对评审价格与最终报价的不同口径，不用评审价格覆盖公告成交价。",
+        "已发现原公告报价 PDF，但本轮管线获取在 robots 检查阶段遭遇 SSL EOF，尚未取得附件正文；不从附件文件名推断报价明细。"
+      ],
+      "nextAcquisition": [
+        {
+          "url": "https://hljcg.hlj.gov.cn/gpx-bid-file/ZF_JGBM_000002/230001/2026/3/3/8a1d12fd9c54c2b4019cac4ef50d3daf/gpx-bidconfirm/8a1d14099cf75c11019d47f7616550fc.pdf?accessCode=7ea93236ecd66574a3b7f38fe48dee99",
+          "purpose": "原公告报价附件，已尝试但 robots 检查阶段 SSL EOF，正文未取得；后续在正常公开访问恢复后核对报价明细，不填补未知项。"
+        },
+        {
+          "url": "https://hljcg.hlj.gov.cn/gpx-bid-file/ZF_JGBM_000002/230001/2026/3/3/8a1d12fd9c54c2b4019cac4ef50d3daf/gpms-procurement/8a1d045d9cdbca75019d04e3ace65357.zip?accessCode=f8093972674301285d8205ca020465e2",
+          "purpose": "原公告的采购文件集；如管线不支持 ZIP，保持未取得状态，不以结果公告替代需求和验收条款。"
+        }
+      ],
+      "transfer": {
+        "usable": [
+          "研究建议：学习从采购结果反查需求、报价、合同与验收的证据链。",
+          "研究建议：把知识图谱采购分解为数据接入、建模、应用与验收工作包。"
+        ],
+        "conditions": [
+          "必须先取得实际需求与授权数据，不能仅按项目名称推演技术方案。",
+          "必须明确数据来源合法授权、更新责任与知识审核机制。",
+          "项目报价比较须对齐功能、工期、服务和验收范围。"
+        ],
+        "notProven": [
+          "未证明这是 FDE 项目。",
+          "未证明本体模型、Agent 或系统已生产运行。",
+          "不得把 59.8 万元成交价作为其他本体项目的通用价格。"
+        ]
+      }
+    },
+    {
+      "id": "case-cognite-mamata-industrial-knowledge",
+      "title": "MaMaTa Unleashes Industrial Knowledge with Cognite Data Fusion®",
+      "classification": "vendor_case_knowledge_graph_fde_unproven",
+      "editorialNote": "研究索引，依据 Cognite 发布的 MaMaTa 案例。属于供应商披露，未取得独立客户验收；图谱与数据应用已有披露，生成式 AI 在该文中仍是后续计划，不能标记为已经部署的自主 Agent。 已补采2024年5月28日的官方活动预告，只证明计划举办演示，不是实际录像或上线证据。",
+      "claims": [
+        {
+          "key": "project",
+          "label": "项目与时间",
+          "value": "MaMaTa 使用 Cognite Data Fusion 建设工业知识数据应用；此版本未给出项目立项日期。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-0f43fbe1c30740e692a7bf1d4edc8504",
+              "sha256": "e8455580f4d46e19a32e11f11f0ce4939c9fbb88ff2a8cd970f42b6889aaf557",
+              "quote": "Cognite Data Fusion®"
+            }
+          ]
+        },
+        {
+          "key": "customer",
+          "label": "客户或采购人",
+          "value": "具名应用方为 MaMaTa；最终使用工厂名单仍需补取。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-0f43fbe1c30740e692a7bf1d4edc8504",
+              "sha256": "e8455580f4d46e19a32e11f11f0ce4939c9fbb88ff2a8cd970f42b6889aaf557",
+              "quote": "MaMaTa"
+            }
+          ]
+        },
+        {
+          "key": "provider",
+          "label": "供应方",
+          "value": "案例发布者及平台供应方为 Cognite。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-0f43fbe1c30740e692a7bf1d4edc8504",
+              "sha256": "e8455580f4d46e19a32e11f11f0ce4939c9fbb88ff2a8cd970f42b6889aaf557",
+              "quote": "Cognite"
+            }
+          ]
+        },
+        {
+          "key": "problem",
+          "label": "业务问题",
+          "value": "披露的痛点是车间经验未文档化，难以作为可利用的知识。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-0f43fbe1c30740e692a7bf1d4edc8504",
+              "sha256": "e8455580f4d46e19a32e11f11f0ce4939c9fbb88ff2a8cd970f42b6889aaf557",
+              "quote": "undocumented tribal knowledge"
+            }
+          ]
+        },
+        {
+          "key": "scope",
+          "label": "建设范围",
+          "value": "方案披露连接相似资产的关系数据。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-0f43fbe1c30740e692a7bf1d4edc8504",
+              "sha256": "e8455580f4d46e19a32e11f11f0ce4939c9fbb88ff2a8cd970f42b6889aaf557",
+              "quote": "links similar assets"
+            }
+          ]
+        },
+        {
+          "key": "delivery",
+          "label": "交付方式",
+          "value": "披露通过平台 API 与 SDK 实现应用连接；现场驻场方式和项目人员配置未知。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-0f43fbe1c30740e692a7bf1d4edc8504",
+              "sha256": "e8455580f4d46e19a32e11f11f0ce4939c9fbb88ff2a8cd970f42b6889aaf557",
+              "quote": "API and SDK"
+            }
+          ]
+        },
+        {
+          "key": "fde",
+          "label": "FDE 模式证据",
+          "value": "未知：未披露 FDE 岗位或完整的现场共创、迭代和产品反馈组织机制。",
+          "status": "unknown",
+          "evidence": []
+        },
+        {
+          "key": "ontology",
+          "label": "本体或图谱证据",
+          "value": "文中明确称其构建知识图谱；未取得可复核的对象模式、形式约束或版本治理文件。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-0f43fbe1c30740e692a7bf1d4edc8504",
+              "sha256": "e8455580f4d46e19a32e11f11f0ce4939c9fbb88ff2a8cd970f42b6889aaf557",
+              "quote": "knowledge graph"
+            }
+          ]
+        },
+        {
+          "key": "agent",
+          "label": "Agent 证据",
+          "value": "未知：文中仅将生成式 AI 能力写为后续计划，不能证明自主 Agent 已上线。",
+          "status": "unknown",
+          "evidence": [
+            {
+              "documentId": "doc-0f43fbe1c30740e692a7bf1d4edc8504",
+              "sha256": "e8455580f4d46e19a32e11f11f0ce4939c9fbb88ff2a8cd970f42b6889aaf557",
+              "quote": "Gen AI capabilities"
+            }
+          ]
+        },
+        {
+          "key": "production",
+          "label": "实际运行",
+          "value": "供应商文章称已构建并部署低代码数据应用；运行验收与实际用户范围仍未独立核对。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-0f43fbe1c30740e692a7bf1d4edc8504",
+              "sha256": "e8455580f4d46e19a32e11f11f0ce4939c9fbb88ff2a8cd970f42b6889aaf557",
+              "quote": "built and deployed"
+            }
+          ]
+        },
+        {
+          "key": "outcome",
+          "label": "结果与效果",
+          "value": "文章称首个站点接入并在门户提供数据于三个月内完成；没有对照试验或可复核 ROI。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-0f43fbe1c30740e692a7bf1d4edc8504",
+              "sha256": "e8455580f4d46e19a32e11f11f0ce4939c9fbb88ff2a8cd970f42b6889aaf557",
+              "quote": "within three months"
+            }
+          ]
+        },
+        {
+          "key": "price",
+          "label": "金额与价格口径",
+          "value": "未知：未披露合同价、订阅费用、实施费用、预算或实际付款。",
+          "status": "unknown",
+          "evidence": []
+        },
+        {
+          "key": "acceptance",
+          "label": "验收",
+          "value": "未知：未取得客户签署的验收指标、测试报告或生产 SLA。",
+          "status": "unknown",
+          "evidence": []
+        }
+      ],
+      "gaps": [
+        "补取 MaMaTa 或最终工厂的客户侧实施与验收资料，供应商文章不能算独立证据。",
+        "核对三个月的起止日期、首站范围、初始数据准备及外部依赖。",
+        "取得设备层级、相似资产映射、时间序列与专家知识模型的实际样例。",
+        "核对生成式 AI 后续是否实施及其权限、工具、评测与人工审核方式。",
+        "补取人员和工作方式证据，避免把低代码开发自动归入 FDE。"
+      ],
+      "nextAcquisition": [
+        {
+          "url": "https://resources.cognite.com/en/company/newsroom/cognite-data-fusion-product-tour-features-innovative-industrial-data-and-ai-solutions-mamata-and-nippon-shokubai",
+          "purpose": "已发现的官方产品演示活动入口，追索客户讲述或演示的原始材料；仍属 Cognite 发布渠道，不自动算独立核验。"
+        }
+      ],
+      "transfer": {
+        "usable": [
+          "研究建议：把相似设备、部件、运行数据与人员经验对齐，先做可解释的诊断辅助。",
+          "研究建议：通过已有平台 API/SDK 做窄范围门户，记录用户反馈。"
+        ],
+        "conditions": [
+          "需要稳定设备标识、时间序列时间基准及专家确认的映射规则。",
+          "需区分可以复用的设备模块与现场差异。",
+          "数据应用和生成式 AI 应分别验收，不能合并为一个成功结论。"
+        ],
+        "notProven": [
+          "未证明本体遵循特定形式化标准。",
+          "未证明自主 Agent 或 FDE 组织已经落地。",
+          "三个月首站披露不能当作其他企业的工期承诺。"
+        ]
+      }
+    },
+    {
+      "id": "case-iflytek-chnenergy-procurement-2026",
+      "title": "21 万个项目、97% 准确率 科大讯飞 FDE 模式跑通千亿级智能招采项目_新浪财经_新浪网",
+      "classification": "media_republication_vendor_claim_fde_explicit",
+      "editorialNote": "研究索引，主要依据新浪转载的每经文章；原标题中的 21 万个项目是被系统处理的业务采购项目量，不能当成 FDE 项目数量，千亿级采购业务体量也不是软件合同金额。报道、转载与供应商宣发可能共用证据链，均不标为独立核验；2026 年新中标与自此前合作累计的运行数据不能混为一期结果。 本轮已取得每经原刊及界面同主题文章，主要叙述高度一致，按同一待溯源传播链处理，不能增加独立核验等级。",
+      "claims": [
+        {
+          "key": "project",
+          "label": "项目与时间",
+          "value": "报道的具名项目为智慧招标体系研究与应用开发项目；公开成交主文件仍需核对。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-8c722aff3663401f9c35310576d2c77f",
+              "sha256": "c7a38ecba86d065d4528cbaa90b0cbc54bed83eaad9613b55c14442bddd52ab2",
+              "quote": "智慧招标体系研究与应用开发项目"
+            }
+          ]
+        },
+        {
+          "key": "customer",
+          "label": "客户或采购人",
+          "value": "报道列出的项目客户为国家能源集团物资有限公司数据科技分公司。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-8c722aff3663401f9c35310576d2c77f",
+              "sha256": "c7a38ecba86d065d4528cbaa90b0cbc54bed83eaad9613b55c14442bddd52ab2",
+              "quote": "国家能源集团物资有限公司数据科技分公司"
+            }
+          ]
+        },
+        {
+          "key": "provider",
+          "label": "供应方",
+          "value": "报道列出的供应方为科大讯飞。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-8c722aff3663401f9c35310576d2c77f",
+              "sha256": "c7a38ecba86d065d4528cbaa90b0cbc54bed83eaad9613b55c14442bddd52ab2",
+              "quote": "科大讯飞"
+            }
+          ]
+        },
+        {
+          "key": "problem",
+          "label": "业务问题",
+          "value": "报道指向采购环节数据分散这一问题；未公开量化的数据质量基线。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-8c722aff3663401f9c35310576d2c77f",
+              "sha256": "c7a38ecba86d065d4528cbaa90b0cbc54bed83eaad9613b55c14442bddd52ab2",
+              "quote": "数据分散"
+            }
+          ]
+        },
+        {
+          "key": "scope",
+          "label": "建设范围",
+          "value": "报道范围覆盖招采的编、报、评、核环节，不能据此判断每个模块均已验收。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-8c722aff3663401f9c35310576d2c77f",
+              "sha256": "c7a38ecba86d065d4528cbaa90b0cbc54bed83eaad9613b55c14442bddd52ab2",
+              "quote": "编、报、评、核"
+            }
+          ]
+        },
+        {
+          "key": "delivery",
+          "label": "交付方式",
+          "value": "报道描述工程团队与业务专家共同梳理规则；投入、驻场时长和交付责任尚无合同佐证。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-8c722aff3663401f9c35310576d2c77f",
+              "sha256": "c7a38ecba86d065d4528cbaa90b0cbc54bed83eaad9613b55c14442bddd52ab2",
+              "quote": "与业务专家共同梳理规则"
+            }
+          ]
+        },
+        {
+          "key": "fde",
+          "label": "FDE 模式证据",
+          "value": "文章明确使用前置部署工程师（FDE）模式的说法；这是转述的模式披露，未独立审计组织执行。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-8c722aff3663401f9c35310576d2c77f",
+              "sha256": "c7a38ecba86d065d4528cbaa90b0cbc54bed83eaad9613b55c14442bddd52ab2",
+              "quote": "前置部署工程师（FDE）模式"
+            }
+          ]
+        },
+        {
+          "key": "ontology",
+          "label": "本体或图谱证据",
+          "value": "文章明确提到把行业经验沉淀为本体；未公开本体模式、关系约束或建模实施工件。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-8c722aff3663401f9c35310576d2c77f",
+              "sha256": "c7a38ecba86d065d4528cbaa90b0cbc54bed83eaad9613b55c14442bddd52ab2",
+              "quote": "将行业Know-how沉淀为本体"
+            }
+          ]
+        },
+        {
+          "key": "agent",
+          "label": "Agent 证据",
+          "value": "文章明确提到星辰 Agent 底座和招采智能体平台；工具权限、审批链与实测日志未知。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-8c722aff3663401f9c35310576d2c77f",
+              "sha256": "c7a38ecba86d065d4528cbaa90b0cbc54bed83eaad9613b55c14442bddd52ab2",
+              "quote": "星辰Agent底座及招采智能体平台"
+            }
+          ]
+        },
+        {
+          "key": "production",
+          "label": "实际运行",
+          "value": "文章称相关智能评审系统投入商业运行；尚未与本轮中标范围、运行时间及客户记录逐项对应。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-8c722aff3663401f9c35310576d2c77f",
+              "sha256": "c7a38ecba86d065d4528cbaa90b0cbc54bed83eaad9613b55c14442bddd52ab2",
+              "quote": "投入商业运行"
+            }
+          ]
+        },
+        {
+          "key": "outcome",
+          "label": "结果与效果",
+          "value": "文章声称智能评审准确率 97%；任务定义、样本量、统计时间、测量方与误判成本均未知，不当作经核验效果。",
+          "status": "disclosed",
+          "evidence": [
+            {
+              "documentId": "doc-8c722aff3663401f9c35310576d2c77f",
+              "sha256": "c7a38ecba86d065d4528cbaa90b0cbc54bed83eaad9613b55c14442bddd52ab2",
+              "quote": "智能评审准确率达97%"
+            }
+          ]
+        },
+        {
+          "key": "price",
+          "label": "金额与价格口径",
+          "value": "未知：未披露本轮软件项目的合同金额、成交金额或预算。客户年度采购体量和供应商宣称的节约/间接经济价值都不是项目报价。",
+          "status": "unknown",
+          "evidence": []
+        },
+        {
+          "key": "acceptance",
+          "label": "验收",
+          "value": "未知：未取得客户签署的验收、准确率测试集与评分口径，不能把报道中的价值主张作为验收结论。",
+          "status": "unknown",
+          "evidence": []
+        }
+      ],
+      "gaps": [
+        "取得国家能源采购平台的正式招标、成交、合同与验收文件，锁定本轮项目编号和金额。",
+        "已取得每经原刊与界面相近报道；仍需追溯稿件的实际信息提供方，不能将同文传播作为独立证据。",
+        "区分此前合作的累计系统运行数据与 2026 年新中标范围、交付周期和新增能力。",
+        "取得 97% 准确率的任务定义、样本构成、测量区间、人工复核与错误分布。",
+        "取得本体对象模式、知识库规范、Agent 权限及驻场共创记录。",
+        "上市公司半年报中其他金融业务的 FDE 驻场描述不能用作国能项目的独立佐证。"
+      ],
+      "nextAcquisition": [
+        {
+          "url": "https://m.nbd.com.cn/articles/2026-08-10/4536880.html",
+          "purpose": "新浪转载的原刊入口，追溯编辑与稿件来源；同文不计新的独立证据链。"
+        },
+        {
+          "url": "https://khjtcgpt.chnenergy.com.cn/cms/channel/jggg2hw/44863.htm",
+          "purpose": "已登记的国家能源采购结果入口，恢复获取后核对项目号、采购范围及价格口径；若仍失败必须保留缺口。"
+        },
+        {
+          "url": "https://www.jiemian.com/article/14893334.html",
+          "purpose": "核对更早同主题报道的来源及文本关系，避免将重复宣发误算独立佐证。"
+        }
+      ],
+      "transfer": {
+        "usable": [
+          "研究建议：从可明确评判的采购文档字段和规则抽取起步，保留人工复核。",
+          "研究建议：把专家纠错、规则修订和异常案例纳入版本化反馈。"
+        ],
+        "conditions": [
+          "必须有授权的历史采购文档、规则版本、可审计的标注与对照集。",
+          "需分别评测客观项、主观项、拒答和人工修订量。",
+          "须明确敏感数据访问、评分责任和审批权限，不能让模型自行决定关键采购结果。"
+        ],
+        "notProven": [
+          "未证明报道准确率与经济价值可复现。",
+          "未证明 2026 年新合同已经全部上线并验收。",
+          "不得把系统累计处理的采购项目数当作 FDE 项目数量。"
+        ]
+      }
+    }
+  ]
+}

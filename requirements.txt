@@ -1,0 +1,4 @@
+deepseek-harness-sdk==0.1.5rc1
+PyYAML==6.0.3
+pdfplumber==0.11.10
+certifi==2026.7.22

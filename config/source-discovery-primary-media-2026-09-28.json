@@ -1,0 +1,18 @@
+{
+  "candidates": [
+    {
+      "url": "https://www.weforum.org/podcasts/meet-the-leader/episodes/palantir-alex-karp-saying-yes-thinking-differently/",
+      "title": "Davos 2023: A conversation with Palantir's Alex Karp",
+      "channel": "创始人官方访谈与播客文字稿",
+      "caution": "主办方明确说明转写经语音识别并编辑压缩；不能冒充未经编辑的逐字原始音轨。历史材料不计2026新增。",
+      "dshTested": false
+    },
+    {
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "title": "arXiv cs.AI official RSS",
+      "channel": "学术论文增量订阅",
+      "caution": "订阅条目不等于已取得论文；只进一步获取与本体、知识图谱、制造等范围相关的候选。",
+      "dshTested": false
+    }
+  ]
+}

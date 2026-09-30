@@ -1,0 +1,29 @@
+# Local research state, source texts, credentials and generated packages
+var/
+dist/
+config.json
+.env
+.env.*
+!.env.example
+.credentials*
+*.pem
+*.key
+*.sqlite*
+*.db
+*.log
+
+# Python / Node environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+node_modules/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local editors / operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

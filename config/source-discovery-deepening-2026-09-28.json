@@ -1,0 +1,100 @@
+{
+  "candidates": [
+    {
+      "title": "OWL 2 Web Ontology Language Primer",
+      "url": "https://www.w3.org/TR/owl2-primer/",
+      "channel": "理论学习实作：本体语义标准",
+      "candidate": true
+    },
+    {
+      "title": "Shapes Constraint Language (SHACL)",
+      "url": "https://www.w3.org/TR/shacl/",
+      "channel": "理论学习实作：数据质量约束",
+      "candidate": true
+    },
+    {
+      "title": "Action types permissions",
+      "url": "https://www.palantir.com/docs/foundry/action-types/permissions",
+      "channel": "理论学习实作：动作权限",
+      "candidate": true
+    },
+    {
+      "title": "Action submission criteria",
+      "url": "https://www.palantir.com/docs/foundry/action-types/submission-criteria",
+      "channel": "理论学习实作：业务动作约束",
+      "candidate": true
+    },
+    {
+      "title": "AIP Evals overview",
+      "url": "https://www.palantir.com/docs/foundry/aip-evals/overview",
+      "channel": "理论学习实作：Agent评测",
+      "candidate": true
+    },
+    {
+      "title": "OpenRefine Reconciling",
+      "url": "https://openrefine.org/docs/manual/reconciling",
+      "channel": "开源资源深入阅读：实体对齐与人工复核",
+      "candidate": true
+    },
+    {
+      "title": "OpenRefine Clustering Methods In-depth",
+      "url": "https://openrefine.org/docs/technical-reference/clustering-in-depth",
+      "channel": "开源资源深入阅读：数据清洗原理与边界",
+      "candidate": true
+    },
+    {
+      "title": "pySHACL validation example",
+      "url": "https://raw.githubusercontent.com/RDFLib/pySHACL/master/examples/example.py",
+      "channel": "开源资源深入阅读：示例源码（不自动执行）",
+      "candidate": true
+    },
+    {
+      "title": "pySHACL two file example",
+      "url": "https://raw.githubusercontent.com/RDFLib/pySHACL/master/examples/two_file_example.py",
+      "channel": "开源资源深入阅读：约束与数据样例",
+      "candidate": true
+    },
+    {
+      "title": "RDFLib Creating RDF triples (7.1.0)",
+      "url": "https://rdflib.readthedocs.io/en/7.1.0/intro_to_creating_rdf.html",
+      "channel": "开源资源深入阅读：版本固定的构造RDF图教程",
+      "candidate": true
+    },
+    {
+      "title": "OpenLineage object model",
+      "url": "https://openlineage.io/docs/spec/object-model/",
+      "channel": "开源资源深入阅读：血缘模型",
+      "candidate": true
+    },
+    {
+      "title": "OSDK overview",
+      "url": "https://www.palantir.com/docs/foundry/ontology-sdk/overview",
+      "channel": "开源资源深入阅读：SDK与运行环境边界",
+      "candidate": true
+    },
+    {
+      "title": "地方病知识图谱项目报价明细附件",
+      "url": "https://hljcg.hlj.gov.cn/gpx-bid-file/ZF_JGBM_000002/230001/2026/3/3/8a1d12fd9c54c2b4019cac4ef50d3daf/gpx-bidconfirm/8a1d14099cf75c11019d47f7616550fc.pdf?accessCode=7ea93236ecd66574a3b7f38fe48dee99",
+      "channel": "案例证据补采：公开公告所链接报价附件",
+      "candidate": true
+    },
+    {
+      "url": "https://www.airbus.com/en/newsroom/news/2017-06-skywise-airline-early-adopter-highlights",
+      "title": "https://www.airbus.com/en/newsroom/news/2017-06-skywise-airline-early-adopter-highlights",
+      "channel": "案例深化：Skywise实施与持续运营原文",
+      "candidate": true
+    },
+    {
+      "url": "https://www.airbus.com/en/newsroom/press-releases/2018-03-easyjet-signs-skywise-predictive-maintenance-agreement-with-airbus",
+      "title": "https://www.airbus.com/en/newsroom/press-releases/2018-03-easyjet-signs-skywise-predictive-maintenance-agreement-with-airbus",
+      "channel": "案例深化：Skywise实施与持续运营原文",
+      "candidate": true
+    },
+    {
+      "url": "https://www.aircraft.airbus.com/en/newsroom/news/2024-10-keeping-the-fleet-flying",
+      "title": "https://www.aircraft.airbus.com/en/newsroom/news/2024-10-keeping-the-fleet-flying",
+      "channel": "案例深化：Skywise实施与持续运营原文",
+      "candidate": true
+    }
+  ]
+}

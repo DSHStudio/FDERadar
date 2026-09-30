@@ -1,0 +1,46 @@
+- id: persistent-bash
+  disabled: true
+- id: persistent-pwsh
+  disabled: true
+- id: terminal-bash
+  disabled: true
+- id: terminal-pwsh
+  disabled: true
+- id: plugin-package-inventory-deepseek
+  disabled: true
+- id: session-log-deepseek
+  disabled: true
+- id: llm-retry
+  disabled: true
+- id: sandbox-policy
+  config:
+    mode: read-only
+- id: tools
+  config:
+    mode: native
+- id: llm-deepseek
+  config:
+    streamIdleTimeoutMs: 45000
+- id: system-prompt
+  config:
+    includeHarnessIdentity: false
+    includeRuntimeContext: false
+    personaPrefix: !!js process.env.DSH_SYSTEM_PROMPT
+- insert:
+    - id: radar-web
+      name: '@deepseek-ai/dsh-web'
+      config:
+        searchProvider: deepseek-official
+    - id: radar-web-search
+      name: '@deepseek-ai/dsh-web-search-deepseek'
+      config:
+        maxUses: 2
+        maxTokens: 2048
+    - id: radar-web-fetch
+      name: '@deepseek-ai/dsh-web-fetch-http'
+      config:
+        timeoutMs: 25000
+        maxResponseBytes: 2000000
+        maxBodyChars: 900000
+    - id: radar-tools
+      name: '__PLUGIN_PATH__'

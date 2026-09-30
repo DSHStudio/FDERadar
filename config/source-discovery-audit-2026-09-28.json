@@ -1,0 +1,69 @@
+{
+  "checkedAt": "2026-09-28T12:01:57Z",
+  "method": "Codex web search, not DSH",
+  "queries": [
+    "site.scale.com \"forward deployed\" customers engineering",
+    "site.palantir.com \"forward deployed\" \"blog\"",
+    "site.tsinghua.edu.cn 知识图谱 工业 企业 项目 本体",
+    "site.ccgp.gov.cn 知识图谱 本体 验收",
+    "site.antgroup.com KAG 知识图谱 本体",
+    "site.tsinghua.edu.cn \"知识图谱\" \"工业\"",
+    "site.scale.com/careers/ \"Forward Deployed Engineer\"",
+    "site.ccgp.gov.cn \"知识图谱\" \"2026\"",
+    "site.deepexi.com \"FDE\"",
+    "site.bonc.com.cn \"FDE\"",
+    "site.github.com/OpenSPG/KAG \"ontology\""
+  ],
+  "candidates": [
+    {
+      "id": "audit-scale-fde-genai",
+      "title": "Forward Deployed Engineer, Gen AI",
+      "url": "https://scale.com/careers/4549048005",
+      "role": "企业官方招聘／FDE 团队职责",
+      "accessStatus": "body_readable",
+      "complements": "补充美国非 Palantir 企业的 FDE 客户协作和全栈交付职责入口。",
+      "caution": "正文明确 FDE；该岗位地点为印度，不能算作美国项目。招聘不能证明具名客户的交付实绩。本轮未作案例独立交叉核验。",
+      "dshTested": false
+    },
+    {
+      "id": "audit-deepexi-deepworks",
+      "title": "DeepWorks Official Site",
+      "url": "https://deepworks.deepexi.com/",
+      "role": "中国厂商官方产品说明／本体与智能体",
+      "accessStatus": "body_readable",
+      "complements": "补充中国企业的本体建模、制造和经营智能体、交付审核入口。",
+      "caution": "正文明确面向 FDE 和客户数据团队，并描述本体构建能力；属于厂商自述，没有证明具名客户上线或收益。",
+      "dshTested": false
+    },
+    {
+      "id": "audit-openspg-kag",
+      "title": "KAG: Knowledge Augmented Generation",
+      "url": "https://github.com/OpenSPG/KAG",
+      "role": "项目官方代码／README／实现资料",
+      "accessStatus": "body_readable",
+      "complements": "补充 schema 约束、知识图谱与大模型混合推理、MCP 接入的可检查技术材料。",
+      "caution": "本轮读到 README 和目录，没有安装执行或复现实验。知识图谱及大模型能力不能据此认定为 FDE 交付或生产项目成效。",
+      "dshTested": false
+    },
+    {
+      "id": "audit-tsinghua-eiir",
+      "title": "曾龙、冯平法团队在具身智能工业机器人领域取得新进展",
+      "url": "https://www.sigs.tsinghua.edu.cn/2026/0618/c7688a291545/page.htm",
+      "role": "中国大学研究发布／待获取线索",
+      "accessStatus": "fetch_failed",
+      "complements": "搜索索引提示该入口可能补充制造场景、知识驱动机器人和装配任务规划研究，待取得原文后核实。",
+      "caution": "标题来自搜索索引；直接打开两次失败，最后报抓取超时。未取得原站正文，不能用题名或索引摘要证明研究结果或 FDE 交付。",
+      "dshTested": false
+    },
+    {
+      "id": "audit-ccgp-endemic-disease-kg",
+      "title": "中国疾病预防控制中心地方病控制中心地方病知识图谱智能化系统和“一带一路”地方病防治研究协作平台建设中标（成交）结果公告",
+      "url": "https://www.ccgp.gov.cn/cggg/dfgg/cjgg/202604/t20260402_26351019.htm",
+      "role": "官方采购发布／待获取线索",
+      "accessStatus": "fetch_failed",
+      "complements": "搜索索引提示该入口可用于追踪中国 2026 年具名知识图谱采购及后续合同和验收，待原文核实。",
+      "caution": "标题来自搜索索引；直接打开报 Internal Error，未取得可确认的原站正文。题名不证明技术实现、FDE 模式或项目验收。",
+      "dshTested": false
+    }
+  ]
+}

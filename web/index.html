@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>FDE 雷达 · 研究工作台</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/state.js" defer></script>
+  <script src="/dom.js" defer></script>
+  <script src="/data.js" defer></script>
+  <script src="/api.js" defer></script>
+  <script src="/forms.js" defer></script>
+  <script src="/research.js" defer></script>
+  <script src="/documents.js" defer></script>
+  <script src="/github.js" defer></script>
+  <script src="/sources.js" defer></script>
+  <script src="/tasks.js" defer></script>
+  <script src="/reader.js" defer></script>
+  <script src="/cases.js" defer></script>
+  <script src="/learning.js" defer></script>
+  <script src="/scenarios.js" defer></script>
+  <script src="/practice.js" defer></script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="brand" href="#intelligence"><span class="brand-mark">◉</span><span>FDE 雷达<small>个人研究工作台</small></span></a>
+      <nav aria-label="工作台导航" id="navigation">
+        <a href="#intelligence" data-view="intelligence">情报与原文 <span id="nav-documents">—</span></a>
+        <a href="#theory" data-view="theory">理论学习</a>
+        <a href="#case" data-view="case">项目案例</a>
+        <a href="#scenario" data-view="scenario">场景研究</a>
+        <a href="#opensource" data-view="opensource">开源资源 <span id="nav-github">—</span></a>
+        <a href="#practice" data-view="practice">实作与试点</a>
+        <span class="nav-section">管理</span>
+        <a href="#sources" data-view="sources">信源与覆盖</a>
+        <a href="#tasks" data-view="tasks">任务与审核 <span id="nav-pending">—</span></a>
+      </nav>
+      <div class="mobile-navigation">
+        <label for="view-select">栏目</label>
+        <select id="view-select" aria-label="选择工作台栏目">
+          <option value="intelligence">情报与原文</option>
+          <option value="theory">理论学习</option>
+          <option value="case">项目案例</option>
+          <option value="scenario">场景研究</option>
+          <option value="opensource">开源资源</option>
+          <option value="practice">实作与试点</option>
+          <option value="sources">信源与覆盖</option>
+          <option value="tasks">任务与审核</option>
+        </select>
+      </div>
+      <div class="connection" id="connection"><span id="connection-dot"></span><span id="connection-status">正在连接本地服务</span></div>
+    </aside>
+    <main>
+      <div id="notice" role="status" aria-live="polite" hidden></div>
+      <section class="page-heading">
+        <div><h1 id="page-title">情报与原文</h1><p id="page-description">正在加载资料…</p></div>
+        <div class="heading-actions"><button class="quiet" id="refresh-button" type="button" title="同步已保存资料">刷新</button><button id="collect-button" type="button">更新资料</button></div>
+      </section>
+      <section id="metrics" class="metrics" aria-label="采集实际进度"></section>
+      <p id="refresh-status" class="subtle"></p>
+      <div id="content" aria-live="polite"><div class="empty">正在加载研究库…</div></div>
+    </main>
+  </div>
+  <dialog id="document-dialog" aria-labelledby="document-title">
+    <div class="dialog-head"><div><h2 id="document-title">原文文档</h2></div><button id="close-document" type="button" class="quiet" aria-label="关闭原文">关闭 ×</button></div>
+    <div id="document-meta"></div>
+    <div class="reader-toolbar">
+      <div class="reader-tabs" role="tablist" aria-label="阅读视图">
+        <button id="reader-tab-original" role="tab" aria-selected="true" aria-controls="document-content" type="button">原文</button>
+        <button id="reader-tab-translate" role="tab" aria-selected="false" aria-controls="document-content" type="button">中文译文</button>
+        <button id="reader-tab-explain" role="tab" aria-selected="false" aria-controls="document-content" type="button">通俗解读</button>
+      </div>
+    </div>
+    <p class="boundary" id="document-boundary">以下为采集时保存的文本提取版本，保留原文语言；排版、图表和附件可能未保留。请结合来源网页与访问状态阅读。</p>
+    <section id="reading-status" class="reading-status" aria-live="polite" hidden></section>
+    <pre id="document-content" role="tabpanel" aria-labelledby="reader-tab-original" tabindex="0"></pre>
+  </dialog>
+  <dialog id="lab-artifact-dialog" aria-labelledby="lab-artifact-title">
+    <div class="dialog-head"><div><h2 id="lab-artifact-title">试验产出</h2></div><button type="button" class="quiet" id="close-lab-artifact" aria-label="关闭试验产出">关闭 ×</button></div>
+    <p id="lab-artifact-meta" class="subtle"></p>
+    <pre id="lab-artifact-content" tabindex="0"></pre>
+  </dialog>
+  <noscript>此研究工作台需要 JavaScript。请运行本地服务后访问工作台地址。</noscript>
+</body>
+</html>

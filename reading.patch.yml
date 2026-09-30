@@ -1,0 +1,31 @@
+- id: persistent-bash
+  disabled: true
+- id: persistent-pwsh
+  disabled: true
+- id: terminal-bash
+  disabled: true
+- id: terminal-pwsh
+  disabled: true
+- id: plugin-package-inventory-deepseek
+  disabled: true
+- id: session-log-deepseek
+  disabled: true
+- id: llm-retry
+  disabled: true
+- id: sandbox-policy
+  config:
+    mode: read-only
+- id: tools
+  config:
+    mode: native
+- id: llm-deepseek
+  config:
+    streamIdleTimeoutMs: 45000
+- id: system-prompt
+  config:
+    includeHarnessIdentity: false
+    includeRuntimeContext: false
+    personaPrefix: !!js process.env.DSH_SYSTEM_PROMPT
+- insert:
+    - id: reading-no-tools
+      name: '__READING_PLUGIN__'

@@ -1,0 +1,489 @@
+{
+  "version": 1,
+  "resources": [
+    {
+      "fullName": "protegeproject/protege",
+      "category": "ontology",
+      "kind": "tool",
+      "tags": [
+        "ontology-editor",
+        "owl",
+        "desktop",
+        "modeling"
+      ],
+      "selectionReason": "README 将其定义为支持 OWL 的本体编辑器，可用于练习实体、属性与类层级建模；收录工具不代表已验证企业项目。",
+      "discoveredVia": "https://github.com/protegeproject/protege"
+    },
+    {
+      "fullName": "RDFLib/rdflib",
+      "category": "ontology",
+      "kind": "framework",
+      "tags": [
+        "rdf",
+        "sparql",
+        "python",
+        "serialization"
+      ],
+      "selectionReason": "README 说明了 RDF 解析、序列化和图查询能力，适合作为把业务对象模型落实为可读写数据的基础库。",
+      "discoveredVia": "https://github.com/RDFLib/rdflib"
+    },
+    {
+      "fullName": "RDFLib/pySHACL",
+      "category": "ontology",
+      "kind": "tool",
+      "tags": [
+        "shacl",
+        "rdf",
+        "validation",
+        "python"
+      ],
+      "selectionReason": "仓库提供 SHACL 校验器，可研究如何把数据本体约束转成可执行的数据质量检查。",
+      "discoveredVia": "https://github.com/RDFLib/pySHACL"
+    },
+    {
+      "fullName": "ontodev/robot",
+      "category": "ontology",
+      "kind": "tool",
+      "tags": [
+        "ontology-workflows",
+        "obo",
+        "owl",
+        "automation"
+      ],
+      "selectionReason": "README 明确是自动化本体开发的命令行工具和库，侧重 OBO；可学习本体构建流程，不推断适用所有行业。",
+      "discoveredVia": "https://github.com/ontodev/robot"
+    },
+    {
+      "fullName": "owlcs/owlapi",
+      "category": "ontology",
+      "kind": "framework",
+      "tags": [
+        "owl",
+        "java",
+        "ontology-api"
+      ],
+      "selectionReason": "OWL API 的主仓库，可研究程序如何加载、操作和保存 OWL 本体，作为图形编辑器之外的工程实现入口。",
+      "discoveredVia": "https://github.com/owlcs/owlapi"
+    },
+    {
+      "fullName": "apache/jena",
+      "category": "ontology",
+      "kind": "framework",
+      "tags": [
+        "rdf",
+        "sparql",
+        "semantic-web",
+        "java"
+      ],
+      "selectionReason": "仓库说明其用于构建语义网和关联数据应用，适合研究 RDF 查询与本体数据服务的工程实现。",
+      "discoveredVia": "https://github.com/apache/jena"
+    },
+    {
+      "fullName": "eclipse-rdf4j/rdf4j",
+      "category": "ontology",
+      "kind": "framework",
+      "tags": [
+        "rdf",
+        "sparql",
+        "java",
+        "knowledge-graph"
+      ],
+      "selectionReason": "Java RDF 框架，可与其他 RDF 工具对照学习数据存取及查询；不把仓库能力描述等同于企业落地成效。",
+      "discoveredVia": "https://github.com/eclipse-rdf4j/rdf4j"
+    },
+    {
+      "fullName": "OpenSPG/KAG",
+      "category": "ontology",
+      "kind": "framework",
+      "tags": [
+        "knowledge-graph",
+        "llm",
+        "retrieval",
+        "chinese-docs"
+      ],
+      "selectionReason": "README 描述结合 OpenSPG 与大模型的逻辑推理和检索，并提供中文文档；用于研究图谱与 Agent 的实现，不采信未经复现的效果宣称。",
+      "discoveredVia": "https://github.com/OpenSPG/KAG"
+    },
+    {
+      "fullName": "OpenSPG/openspg",
+      "category": "ontology",
+      "kind": "framework",
+      "tags": [
+        "semantic-model",
+        "knowledge-graph",
+        "domain-model",
+        "china-ecosystem"
+      ],
+      "selectionReason": "仓库将其说明为蚂蚁集团与 OpenKG 合作的知识图谱引擎，强调领域模型约束；可学习建模和知识表示，不自动认定为 FDE 案例。",
+      "discoveredVia": "https://github.com/OpenSPG/openspg"
+    },
+    {
+      "fullName": "TuGraph-family/tugraph-db",
+      "category": "ontology",
+      "kind": "tool",
+      "tags": [
+        "graph-database",
+        "property-graph",
+        "knowledge-graph"
+      ],
+      "selectionReason": "TuGraph 图数据库实现，可用于研究业务关系数据的存储查询；图数据库不等于完整本体方法，也不证明采用了 FDE 组织模式。",
+      "discoveredVia": "https://github.com/TuGraph-family/tugraph-db"
+    },
+    {
+      "fullName": "usc-isi-i2/kgtk",
+      "category": "ontology",
+      "kind": "tool",
+      "tags": [
+        "knowledge-graph",
+        "transformation",
+        "data-cleaning",
+        "rdf"
+      ],
+      "selectionReason": "README 列出图谱导入、清洗、转换和组合操作，可研究从原始数据到可查询知识图谱的处理链。",
+      "discoveredVia": "https://github.com/usc-isi-i2/kgtk"
+    },
+    {
+      "fullName": "oxigraph/oxigraph",
+      "category": "ontology",
+      "kind": "tool",
+      "tags": [
+        "sparql",
+        "rdf",
+        "graph-database"
+      ],
+      "selectionReason": "SPARQL 图数据库，可作为本体数据查询与轻量服务实现的比较对象；仍需按实际业务约束测试。",
+      "discoveredVia": "https://github.com/oxigraph/oxigraph"
+    },
+    {
+      "fullName": "OpenRefine/OpenRefine",
+      "category": "governance",
+      "kind": "tool",
+      "tags": [
+        "data-cleaning",
+        "reconciliation",
+        "data-wrangling"
+      ],
+      "selectionReason": "README 说明其面向杂乱数据的整理与改进，适合学习企业数据接入前的清洗与实体对齐。",
+      "discoveredVia": "https://github.com/OpenRefine/OpenRefine"
+    },
+    {
+      "fullName": "fivetran/great_expectations",
+      "category": "governance",
+      "kind": "framework",
+      "tags": [
+        "data-quality",
+        "validation",
+        "expectations",
+        "tests"
+      ],
+      "selectionReason": "README 以 Expectations 表达数据质量测试；旧 great-expectations 入口当前重定向至此，登记现有仓库地址并保留原发现入口。",
+      "discoveredVia": "https://github.com/great-expectations/great_expectations"
+    },
+    {
+      "fullName": "datahub-project/datahub",
+      "category": "governance",
+      "kind": "tool",
+      "tags": [
+        "metadata",
+        "catalog",
+        "data-discovery",
+        "governance"
+      ],
+      "selectionReason": "数据和 AI 元数据上下文平台，可研究企业数据发现及治理的组织方式；具体连接器和能力以当前 README 为准。",
+      "discoveredVia": "https://github.com/datahub-project/datahub"
+    },
+    {
+      "fullName": "open-metadata/OpenMetadata",
+      "category": "governance",
+      "kind": "tool",
+      "tags": [
+        "metadata",
+        "business-semantics",
+        "catalog",
+        "governance"
+      ],
+      "selectionReason": "仓库强调数据上下文与业务语义，可对照研究元数据目录如何支持人员及 Agent 理解数据。",
+      "discoveredVia": "https://github.com/open-metadata/OpenMetadata"
+    },
+    {
+      "fullName": "OpenLineage/OpenLineage",
+      "category": "governance",
+      "kind": "framework",
+      "tags": [
+        "lineage",
+        "metadata",
+        "data-pipeline"
+      ],
+      "selectionReason": "开放的数据血缘元数据采集规范与实现，可学习来源、作业和输出之间如何形成可追溯关系。",
+      "discoveredVia": "https://github.com/OpenLineage/OpenLineage"
+    },
+    {
+      "fullName": "dbt-labs/dbt",
+      "category": "governance",
+      "kind": "framework",
+      "tags": [
+        "data-transformation",
+        "analytics-engineering",
+        "testing"
+      ],
+      "selectionReason": "仓库提供按软件工程方式组织数据转换的实现；原 dbt-core 入口当前重定向至此，不将名称迁移推断为能力或许可变更。",
+      "discoveredVia": "https://github.com/dbt-labs/dbt-core"
+    },
+    {
+      "fullName": "sodadata/soda-core",
+      "category": "governance",
+      "kind": "tool",
+      "tags": [
+        "data-contracts",
+        "data-quality",
+        "validation"
+      ],
+      "selectionReason": "当前 README 将其描述为数据契约引擎，可研究把业务预期变为可执行数据检查；版本变化须继续跟踪。",
+      "discoveredVia": "https://github.com/sodadata/soda-core"
+    },
+    {
+      "fullName": "awslabs/deequ",
+      "category": "governance",
+      "kind": "framework",
+      "tags": [
+        "data-quality",
+        "spark",
+        "validation",
+        "profiling"
+      ],
+      "selectionReason": "README 说明其在 Spark 上定义数据单元测试，可研究大规模企业数据的质量度量与约束验证。",
+      "discoveredVia": "https://github.com/awslabs/deequ"
+    },
+    {
+      "fullName": "dqops/dqo",
+      "category": "governance",
+      "kind": "tool",
+      "tags": [
+        "data-quality",
+        "observability",
+        "profiling"
+      ],
+      "selectionReason": "仓库提供数据剖析、质量检查与观测入口，可学习从初始数据盘点到持续质量检查的过程。",
+      "discoveredVia": "https://github.com/dqops/dqo"
+    },
+    {
+      "fullName": "apache/atlas",
+      "category": "governance",
+      "kind": "tool",
+      "tags": [
+        "metadata",
+        "governance",
+        "catalog"
+      ],
+      "selectionReason": "Apache 元数据管理与治理项目，适合研究业务数据定义和治理信息的统一管理，不能据此断言使用了 Palantir 本体。",
+      "discoveredVia": "https://github.com/apache/atlas"
+    },
+    {
+      "fullName": "apache/gravitino",
+      "category": "governance",
+      "kind": "tool",
+      "tags": [
+        "catalog",
+        "federated-metadata",
+        "data-management"
+      ],
+      "selectionReason": "开放数据目录及联邦元数据管理项目，可研究跨系统数据入口；目录能力不等同于完整业务本体。",
+      "discoveredVia": "https://github.com/apache/gravitino"
+    },
+    {
+      "fullName": "palantir/osdk-ts",
+      "category": "fde",
+      "kind": "framework",
+      "tags": [
+        "palantir",
+        "ontology-sdk",
+        "typescript",
+        "delivery-adjacent"
+      ],
+      "selectionReason": "Palantir 的 TypeScript OSDK 库，是学习如何在应用中访问本体能力的直接代码入口；属于开发工具，不是已核验 FDE 项目。",
+      "discoveredVia": "https://github.com/palantir/osdk-ts"
+    },
+    {
+      "fullName": "palantir/foundry-platform-python",
+      "category": "fde",
+      "kind": "framework",
+      "tags": [
+        "palantir",
+        "foundry",
+        "python-sdk",
+        "delivery-adjacent"
+      ],
+      "selectionReason": "Foundry API 的官方 Python SDK，可研究企业系统集成的调用方式；需要相应环境和权限，不能把示例调用当作落地案例。",
+      "discoveredVia": "https://github.com/palantir/foundry-platform-python"
+    },
+    {
+      "fullName": "aws-samples/sample-fdep-mcp-server",
+      "category": "fde",
+      "kind": "example",
+      "tags": [
+        "fde-explicit",
+        "mcp",
+        "aws",
+        "delivery-kit",
+        "self-described"
+      ],
+      "selectionReason": "AWS samples 仓库 README 明确称为 FDE Delivery Kit，提供需求到实现的 MCP 交付样例；模式验证与客户成效仍是仓库自述，未在本雷达复现。",
+      "discoveredVia": "https://github.com/aws-samples/sample-fdep-mcp-server"
+    },
+    {
+      "fullName": "modelcontextprotocol/python-sdk",
+      "category": "fde",
+      "kind": "framework",
+      "tags": [
+        "mcp",
+        "python",
+        "tool-integration",
+        "delivery-adjacent"
+      ],
+      "selectionReason": "MCP 官方 Python SDK，可用于研究企业工具与 Agent 的连接接口；这是通用交付相关基础设施，不是 FDE 项目证据。",
+      "discoveredVia": "https://github.com/modelcontextprotocol/python-sdk"
+    },
+    {
+      "fullName": "promptfoo/promptfoo",
+      "category": "fde",
+      "kind": "tool",
+      "tags": [
+        "evaluation",
+        "rag",
+        "agent-testing",
+        "delivery-adjacent"
+      ],
+      "selectionReason": "仓库提供提示词、Agent 与 RAG 测试能力，可用于交付验收的对照实验；不据其用户或宣传描述推断项目结果。",
+      "discoveredVia": "https://github.com/promptfoo/promptfoo"
+    },
+    {
+      "fullName": "langfuse/langfuse",
+      "category": "fde",
+      "kind": "tool",
+      "tags": [
+        "observability",
+        "evaluation",
+        "llm",
+        "delivery-adjacent"
+      ],
+      "selectionReason": "仓库提供 Agent/LLM 的追踪与评测能力，可研究上线后如何定位失败和改进；属于 FDE 相关工具而非已证实 FDE 实践项目。",
+      "discoveredVia": "https://github.com/langfuse/langfuse"
+    },
+    {
+      "fullName": "Arize-ai/phoenix",
+      "category": "fde",
+      "kind": "tool",
+      "tags": [
+        "observability",
+        "evaluation",
+        "tracing",
+        "delivery-adjacent"
+      ],
+      "selectionReason": "README 描述 AI 观测、实验和评测功能，可学习交付中的证据与调试链；部署可行性需在目标环境测试。",
+      "discoveredVia": "https://github.com/Arize-ai/phoenix"
+    },
+    {
+      "fullName": "temporalio/sdk-python",
+      "category": "fde",
+      "kind": "framework",
+      "tags": [
+        "durable-workflows",
+        "python",
+        "orchestration",
+        "delivery-adjacent"
+      ],
+      "selectionReason": "Temporal Python SDK 可作为持续工作流的工程实现入口；研究其对重试和长任务交付的价值，不将所有工作流项目称为 FDE。",
+      "discoveredVia": "https://github.com/temporalio/sdk-python"
+    },
+    {
+      "fullName": "langchain-ai/langgraph",
+      "category": "fde",
+      "kind": "framework",
+      "tags": [
+        "agents",
+        "orchestration",
+        "stateful-workflows",
+        "delivery-adjacent"
+      ],
+      "selectionReason": "Agent 编排框架，可用于比较有状态企业工作流的实现方式；框架使用本身不构成 FDE 模式或本体建模证据。",
+      "discoveredVia": "https://github.com/langchain-ai/langgraph"
+    },
+    {
+      "fullName": "infiniflow/ragflow",
+      "category": "fde",
+      "kind": "framework",
+      "tags": [
+        "rag",
+        "document-processing",
+        "agents",
+        "delivery-adjacent"
+      ],
+      "selectionReason": "仓库描述文档检索增强与 Agent 能力，适合作为企业知识应用的工程比较对象；不把通用 RAG 工具算作已核验 FDE 项目。",
+      "discoveredVia": "https://github.com/infiniflow/ragflow"
+    },
+    {
+      "fullName": "suboss87/FDEOps",
+      "category": "fde",
+      "kind": "tool",
+      "tags": [
+        "fde-explicit",
+        "agent-skills",
+        "delivery-method",
+        "self-described"
+      ],
+      "selectionReason": "README 明确面向 FDE 和交付团队，组织需求、架构、验证与移交流程；属于作者自述方法工具，客户项目与效果未独立核验。",
+      "discoveredVia": "https://github.com/suboss87/FDEOps"
+    },
+    {
+      "fullName": "global-fde/awesome-fde-resources",
+      "category": "fde",
+      "kind": "resource_list",
+      "tags": [
+        "fde-explicit",
+        "discovery-only",
+        "self-described",
+        "chinese-resources"
+      ],
+      "selectionReason": "FDE 资源与实践线索清单，包含中文材料入口；仅用于发现原始来源，清单中的公司、案例、人物与岗位说法都需逐项核验。",
+      "discoveredVia": "https://github.com/global-fde/awesome-fde-resources"
+    }
+  ],
+  "queries": [
+    {
+      "query": "ontology in:name,description language:Java archived:false -topic:blockchain -topic:cryptocurrency",
+      "category": "ontology"
+    },
+    {
+      "query": "\"data quality\" in:name,description archived:false",
+      "category": "governance"
+    },
+    {
+      "query": "\"forward deployed\" in:name,description,readme archived:false",
+      "category": "fde"
+    },
+    {
+      "query": "\"knowledge graph\" in:description archived:false -topic:blockchain -topic:cryptocurrency",
+      "category": "ontology"
+    },
+    {
+      "query": "\"data catalog\" in:name,description archived:false",
+      "category": "governance"
+    },
+    {
+      "query": "ontology org:palantir archived:false",
+      "category": "fde"
+    },
+    {
+      "query": "SHACL in:name,description archived:false",
+      "category": "ontology"
+    },
+    {
+      "query": "\"data lineage\" in:name,description archived:false",
+      "category": "governance"
+    },
+    {
+      "query": "\"agent evaluation\" in:name,description archived:false",
+      "category": "fde"
+    }
+  ]
+}

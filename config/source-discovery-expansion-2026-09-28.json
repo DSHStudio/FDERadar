@@ -1,0 +1,306 @@
+{
+  "schema": "fde-radar.discovery/v1",
+  "createdAt": "2026-09-28",
+  "candidates": [
+    {
+      "url": "https://www.palantir.com/docs/foundry/ontology-mcp",
+      "title": "Ontology MCP • Overview • Palantir",
+      "channel": "企业原始披露",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://www.cognite.com/en/resources/customer-stories",
+      "title": "Customer stories | Cognite",
+      "channel": "企业原始披露",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://www.cognite.com/en/resources/customer-stories/scaling-across-the-enterprise",
+      "title": "Scaling AI at Speed: How a Global Chemical Leader Scaled 50 Use Cases Across 50 Sites in Two Years",
+      "channel": "企业原始披露",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://www.palantir.com/platforms/ontology/",
+      "title": "Ontology",
+      "channel": "企业原始披露",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://www.cognite.com/en/resources/customer-stories/mamata-unleashes-industrial-knowledge-with-cognite-data-fusion",
+      "title": "MaMaTa Unleashes Industrial Knowledge with Cognite Data Fusion®",
+      "channel": "企业原始披露",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://deepworks.deepexi.com/",
+      "title": "DeepWorks 官网",
+      "channel": "企业原始披露",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://www.cognite.com/en/industrial-knowledge-graph",
+      "title": "Industrial Knowledge Graph | Cognite",
+      "channel": "企业原始披露",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://www.deepexi.com/",
+      "title": "滴普科技 - AI创造无限可能",
+      "channel": "企业原始披露",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://hub.cognite.com/product-user-community-428/manufacturing-unlocking-product-traceability-using-an-industrial-knowledge-graph-1032",
+      "title": "Cognite Hub",
+      "channel": "企业原始披露",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://investors.palantir.com/files/Palantir%20-%20Q4%202025%20Investor%20Presentation.pdf",
+      "title": "Palantir - Q4 2025 Investor Presentation",
+      "channel": "研究与原始PDF",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://www.palantir.com/assets/xrfr7uokpv1b/4mSNoWcwpgo5G8lRmBSnbk/2d33af8f6c717377197aae56d683f82d/Connecting_AI___Machine_Learning_with_Operations.pdf",
+      "title": "Connecting AI and Machine Learning with Operations _v4",
+      "channel": "研究与原始PDF",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://www.palantir.com/assets/xrfr7uokpv1b/mhoyY4c8vdVlJhulDStk2/a7340768109c8e8d79d00b4cb99d8e70/Whitepaper_-_Foundry_2022.pdf",
+      "title": "FOUNDRY ↘  TECHNICAL OVERVIEW →  PALANTIR.COM",
+      "channel": "研究与原始PDF",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://www.cognite.com/hubfs/6407318/industrial-digital-twin-cognite-wp.pdf",
+      "title": "Open Industrial",
+      "channel": "研究与原始PDF",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://www.cognite.com/hubfs/cognite-resources/2023-white-paper-intelligent-factories.pdf",
+      "title": "Intelligent Factories:",
+      "channel": "研究与原始PDF",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.15779",
+      "title": "EvoOntology: A Self-Evolving Ontology Layer for Data Agents",
+      "channel": "研究与原始PDF",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.03439",
+      "title": "Ontology-to-tools compilation for executable semantic constraint enforcement in LLM agents",
+      "channel": "研究与原始PDF",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.13662",
+      "title": "Ontology-Grounded Project Memory for Coding Agents",
+      "channel": "研究与原始PDF",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.06571",
+      "title": "Building A Knowledge Graph to Enrich ChatGPT Responses in Manufacturing Service Discovery",
+      "channel": "研究与原始PDF",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://www.pbs.org/wgbh/frontline/documentary/in-the-age-of-ai/",
+      "title": "In the Age of AI | FRONTLINE | PBS | Official Site | Documentary Series",
+      "channel": "纪录片",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://www.deepexi.com/company",
+      "title": "公司 - 滴普科技",
+      "channel": "企业原始披露",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-21/1225485550.PDF",
+      "title": "科大讯飞股份有限公司2026年半年度报告全文",
+      "channel": "研究与原始PDF",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://www.econclubny.org/documents/10184/109144/20250224_Karp_Transcript.pdf",
+      "title": "The Economic Club of New York",
+      "channel": "研究与原始PDF",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://www.palantir.com/assets/xrfr7uokpv1b/2inl87zghZHVlEeiwitnTT/2b1f5ea527fc6c19c242ce988685c460/12996_Tim_PalantirTechnologies_15032025_B-72-.pdf",
+      "title": "TIM.051.1GM.______.15mar.OTB",
+      "channel": "研究与原始PDF",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://www.axios.com/2025/11/07/palantir-ceo-alex-karp-interview-axios",
+      "title": "Alex Karp unplugged: Palantir CEO on \"The Axios Show\"",
+      "channel": "新闻媒体",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://a16z.com/podcasts/a16z-show/",
+      "title": "a16z show | Andreessen Horowitz",
+      "channel": "播客",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://www.tmtpost.com/7987700.html",
+      "title": "滴普科技赵杰辉：本体大模型，企业级智能体落地的产品化探索-钛媒体官方网站",
+      "channel": "新闻媒体",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-08-26/b4eaf086-e38e-4fa0-8ae6-f9ee4b41c724.PDF",
+      "title": "北京宇信科技集团股份有限公司 2026 年半年度报告全文",
+      "channel": "研究与原始PDF",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225513200.PDF",
+      "title": "宇信科技 Yusys Technologies",
+      "channel": "研究与原始PDF",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://finance.sina.com.cn/roll/2026-08-10/doc-inimuvrv5046493.shtml",
+      "title": "21 万个项目、97% 准确率 科大讯飞 FDE 模式跑通千亿级智能招采项目_新浪财经_新浪网",
+      "channel": "新闻媒体",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    },
+    {
+      "url": "https://wap.eastmoney.com/a/202609033864252617.html",
+      "title": "宇信科技：FDE团队在银行客户项目中验证落地能力，实现Agent可靠性交付 _ 东方财富网",
+      "channel": "新闻媒体",
+      "discoveredAt": "2026-09-28",
+      "discoveryMethod": "Codex web search — lead only",
+      "dshTested": false,
+      "stage": "candidate",
+      "relevance": "待正文核实，不等同FDE项目证据"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-09-28",
+  "method": "Codex web search, not DSH",
+  "queries": [
+    "site.stardog.com customers knowledge graph manufacturing agents",
+    "site.cognite.com customer knowledge graph data model AI industrial"
+  ],
+  "candidates": [
+    {
+      "id": "audit-stardog-manufacturing",
+      "title": "Knowledge graph-powered semantic layer for Manufacturing & Supply Chain",
+      "url": "https://www.stardog.com/industries/manufacturing/",
+      "role": "厂商官方行业与技术入口",
+      "accessStatus": "body_readable",
+      "complements": "补充非Palantir语义层、制造与供应链资料。",
+      "caution": "厂商宣传与Logo不证明具名项目采用FDE或效果；需继续回查客户原件。",
+      "dshTested": false
+    },
+    {
+      "id": "audit-cognite-industrial-graph",
+      "title": "Industrial knowledge graph",
+      "url": "https://www.cognite.com/en/industrial-knowledge-graph",
+      "role": "厂商官方工业数据模型说明",
+      "accessStatus": "body_readable",
+      "complements": "补充工业知识图谱、数据建模与制造场景技术对照。",
+      "caution": "知识图谱不自动等同Palantir本体；平台能力不证明项目级FDE或收益。",
+      "dshTested": false
+    },
+    {
+      "id": "audit-cognite-ai-modeling",
+      "title": "Optimizing data models for AI",
+      "url": "https://docs.cognite.com/fr/cdf/dm/dm_guides/dm_best_practices_ai_search/",
+      "role": "官方技术文档待获取入口",
+      "accessStatus": "fetch_failed",
+      "complements": "待核验数据模型与Agent检索结合的具体实现。",
+      "caution": "标题来自搜索索引；直接打开失败，不能按已读技术正文加工。",
+      "dshTested": false
+    },
+    {
+      "id": "audit-manufacturing-kg-paper",
+      "title": "Building A Knowledge Graph to Enrich ChatGPT Responses in Manufacturing Service Discovery",
+      "url": "https://arxiv.org/abs/2404.06571",
+      "role": "作者论文摘要与原论文入口",
+      "accessStatus": "abstract_readable",
+      "complements": "补充制造服务知识图谱与LLM的学术对照。",
+      "caution": "本轮仅打开摘要页；尚未通读论文、运行代码或复现实验，也没有FDE项目证据。",
+      "dshTested": false
+    }
+  ]
+}

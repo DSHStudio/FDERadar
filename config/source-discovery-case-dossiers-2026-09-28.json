@@ -1,0 +1,46 @@
+{
+  "candidates": [
+    {
+      "url": "https://www.mccarthy.com/insights/mccarthy-and-palantir-announce-strategic-partnership-to-bring-ai-to-the-construction-field",
+      "title": "持续跟踪客户主源的后续实施链接，取得 Pulse 演示、站点运行与验收材料；当前公告本身不补足这些缺口。",
+      "channel": "深度案例证据补采",
+      "candidate": true
+    },
+    {
+      "url": "https://hljcg.hlj.gov.cn/gpx-bid-file/ZF_JGBM_000002/230001/2026/3/3/8a1d12fd9c54c2b4019cac4ef50d3daf/gpx-bidconfirm/8a1d14099cf75c11019d47f7616550fc.pdf?accessCode=7ea93236ecd66574a3b7f38fe48dee99",
+      "title": "原公告报价附件，已尝试但 robots 检查阶段 SSL EOF，正文未取得；后续在正常公开访问恢复后核对报价明细，不填补未知项。",
+      "channel": "深度案例证据补采",
+      "candidate": true
+    },
+    {
+      "url": "https://hljcg.hlj.gov.cn/gpx-bid-file/ZF_JGBM_000002/230001/2026/3/3/8a1d12fd9c54c2b4019cac4ef50d3daf/gpms-procurement/8a1d045d9cdbca75019d04e3ace65357.zip?accessCode=f8093972674301285d8205ca020465e2",
+      "title": "原公告的采购文件集；如管线不支持 ZIP，保持未取得状态，不以结果公告替代需求和验收条款。",
+      "channel": "深度案例证据补采",
+      "candidate": true
+    },
+    {
+      "url": "https://resources.cognite.com/en/company/newsroom/cognite-data-fusion-product-tour-features-innovative-industrial-data-and-ai-solutions-mamata-and-nippon-shokubai",
+      "title": "已发现的官方产品演示活动入口，追索客户讲述或演示的原始材料；仍属 Cognite 发布渠道，不自动算独立核验。",
+      "channel": "深度案例证据补采",
+      "candidate": true
+    },
+    {
+      "url": "https://m.nbd.com.cn/articles/2026-08-10/4536880.html",
+      "title": "新浪转载的原刊入口，追溯编辑与稿件来源；同文不计新的独立证据链。",
+      "channel": "深度案例证据补采",
+      "candidate": true
+    },
+    {
+      "url": "https://khjtcgpt.chnenergy.com.cn/cms/channel/jggg2hw/44863.htm",
+      "title": "已登记的国家能源采购结果入口，恢复获取后核对项目号、采购范围及价格口径；若仍失败必须保留缺口。",
+      "channel": "深度案例证据补采",
+      "candidate": true
+    },
+    {
+      "url": "https://www.jiemian.com/article/14893334.html",
+      "title": "核对更早同主题报道的来源及文本关系，避免将重复宣发误算独立佐证。",
+      "channel": "深度案例证据补采",
+      "candidate": true
+    }
+  ]
+}

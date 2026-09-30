@@ -1,0 +1,116 @@
+"use strict";
+
+const views = {
+  intelligence: ["情报与原文", "最近收集的本体、FDE 与 AI 应用资料。"],
+  theory: ["理论学习", "从本体基础到 AI 应用，循序学习与练习。"],
+  case: ["项目案例", "阅读项目原始披露，了解合作、交付与成效。"],
+  scenario: ["场景研究", "围绕企业痛点，评估数据条件与落地路径。"],
+  opensource: ["开源资源", "发现本体建设、数据治理与 FDE 实践工具。"],
+  practice: ["实作与试点", "通过对照实验，准备可验证的企业试点。"],
+  sources: ["信源与覆盖", "管理持续追踪的来源，查看获取缺口。"],
+  tasks: ["任务与审核", "跟进研究任务，审核 AI 研究笔记。"],
+};
+
+const app = {
+  token: "",
+  data: null,
+  view: "intelligence",
+  query: "",
+  host: "",
+  track: "",
+  sourceStatus: "",
+  page: 1,
+  timer: null,
+  searchTimer: null,
+  matchedIds: null,
+  searchQuery: "",
+  searchError: "",
+  busy: false,
+  lastSeen: null,
+  selectedDocument: null,
+  viewState: new Map(),
+  formDrafts: new Map(),
+};
+
+const reader = {
+  generation: 0,
+  document: null,
+  mode: "original",
+  task: null,
+  timer: null,
+  loading: false,
+  cancelling: false,
+  error: "",
+  cache: new Map(),
+  evidence: null,
+  occurrence: 0,
+  returnFocusId: null,
+};
+
+const githubFilters = { category: "", kind: "", license: "", archived: "" };
+
+let githubSubmitting = false;
+
+const PAGE_SIZE = 20;
+
+const accessLabels = {
+  body_fetched_not_semantically_verified: "已取文本 · 未做语义核验",
+  body_partial: "文本不完整",
+  insufficient_body: "正文不足",
+  http_error: "请求失败",
+  authorized_text: "授权导入文本",
+  manual_text: "手动导入文本",
+  github_readme: "GitHub README 原文",
+  readme: "README 文本",
+  body_read: "历史查阅记录",
+  fetched: "获取成功",
+  updated: "发现新版本",
+  unchanged: "本次无变化",
+  ok: "获取成功",
+  success: "获取成功",
+  failed: "获取失败",
+  error: "获取失败",
+  pending: "尚未获取",
+  queued: "等待执行",
+  running: "执行中",
+  cancelled: "已取消",
+  interrupted: "已中断",
+  empty: "无新增笔记",
+  succeeded: "已完成",
+  completed: "已完成",
+  complete: "已完成",
+  completed_with_errors: "完成 · 部分失败",
+  partial: "部分文本",
+  blocked: "访问受限",
+  pending_review: "待人工审核",
+  accepted: "已收录笔记",
+  rejected: "已排除",
+  staged: "分析尚未完成",
+  not_attempted: "尚未获取",
+  robots_disallowed: "站点规则禁止采集",
+  robots_unavailable: "未能读取站点规则",
+  access_restricted: "访问受限",
+  metadata_only: "仅元数据 / 导航",
+  listing: "目录 / 索引",
+  shell: "页面框架 / 导航",
+  evidence_text: "已提取资料文本",
+  rss: "RSS 索引",
+  atom: "Atom 索引",
+  pdf: "PDF 文本",
+  html: "网页文本",
+  completed_with_warnings: "完成 · 部分受限或失败",
+};
+
+const researchUI = {
+  caseFilter: "",
+  caseId: null,
+  caseDetail: false,
+  casePane: "facts",
+  lessonId: null,
+  lessonDetail: false,
+  drafts: new Map(),
+  lab: null,
+  labLoading: false,
+  labError: "",
+  labSubmitting: false,
+};

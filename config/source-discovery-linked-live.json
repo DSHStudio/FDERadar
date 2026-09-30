@@ -1,0 +1,754 @@
+{
+  "candidates": [
+    {
+      "url": "https://www.cognite.com/en/resources/customer-stories/how-totalenergies-is-improving-ai-and-data-maturity-at-scale-across-36-upstream-assets",
+      "title": "Customer StoryHow TotalEnergies Is Improving AI and Data Maturity at Scale Across 36 Upstream Assets",
+      "channel": "非Palantir制造与经营案例",
+      "discoveredFrom": "https://www.cognite.com/en/resources/customer-stories",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://www.cognite.com/en/resources/customer-stories/iqumulus-and-cognite-bridging-the-gap-from-plant-floor-to-c-suite",
+      "title": "Customer StoryIQumulus and Cognite: Bridging the Gap from Plant Floor to C-Suite",
+      "channel": "非Palantir制造与经营案例",
+      "discoveredFrom": "https://www.cognite.com/en/resources/customer-stories",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://www.cognite.com/en/resources/customer-stories/tosoh",
+      "title": "Customer StoryTosoh’s Initiative for a \"Safe and Secure Manufacturing Workplace\" Leveraging Cognite Data Fusion®",
+      "channel": "非Palantir制造与经营案例",
+      "discoveredFrom": "https://www.cognite.com/en/resources/customer-stories",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://www.cognite.com/en/resources/customer-stories/rapidly-turning-shop-floor-needs-into-reality-jnc-s-manufacturing-dx-initiative",
+      "title": "Customer StoryRapidly Turning Shop-Floor Needs into Reality: JNC’s Manufacturing DX Initiative",
+      "channel": "非Palantir制造与经营案例",
+      "discoveredFrom": "https://www.cognite.com/en/resources/customer-stories",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://www.cognite.com/en/resources/customer-stories/maruzen-petrochemical-s-field-driven-data-utilization-with-cognite",
+      "title": "Customer StoryMaruzen Petrochemical’s Field-Driven  Data Utilization with Cognite",
+      "channel": "非Palantir制造与经营案例",
+      "discoveredFrom": "https://www.cognite.com/en/resources/customer-stories",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://www.cognite.com/en/resources/customer-stories/optimizing-blockbuster-drug-manufacturing-with-ai",
+      "title": "Customer StoryOptimizing blockbuster drug manufacturing with AI: How Cognite enables best-in-class architecture for digital biomanufacturing",
+      "channel": "非Palantir制造与经营案例",
+      "discoveredFrom": "https://www.cognite.com/en/resources/customer-stories",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://www.cognite.com/en/resources/customer-stories/accelerating-dx-at-tokuyama-with-cognite-data-fusion",
+      "title": "Customer StoryTokuyama’s Challenge with Cognite Data Fusion®︎: Data Integration and AI Utilization to Accelerate DX",
+      "channel": "非Palantir制造与经营案例",
+      "discoveredFrom": "https://www.cognite.com/en/resources/customer-stories",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://www.cognite.com/en/resources/customer-stories/fueling-smart-building-operations-with-developer-first-industrial-data",
+      "title": "Customer StoryFueling Smart Building Operations with Developer-First Industrial Data",
+      "channel": "非Palantir制造与经营案例",
+      "discoveredFrom": "https://www.cognite.com/en/resources/customer-stories",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://www.cognite.com/en/resources/customer-stories/ignos-and-framo-increasing-uptime-and-productivity",
+      "title": "Customer StoryIgnos and Framo: Increasing Uptime and Productivity to Drive Millions in Savings Through Improved Operator Workflows",
+      "channel": "非Palantir制造与经营案例",
+      "discoveredFrom": "https://www.cognite.com/en/resources/customer-stories",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://www.cognite.com/en/resources/customer-stories/aker-solutions-aker-bp-and-cognite-advance-robotics-for-the-yggdrasil-development",
+      "title": "Customer StoryAker Solutions, Aker BP, and Cognite Advance Robotics for the Yggdrasil Development",
+      "channel": "非Palantir制造与经营案例",
+      "discoveredFrom": "https://www.cognite.com/en/resources/customer-stories",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://www.cognite.com/en/resources/customer-stories/drill-down-smarter-how-cognite-built-the-chatgpt-for-wellview-data",
+      "title": "Customer StoryDrill Down Smarter: How Cognite Built the ChatGPT for Wellview Data",
+      "channel": "非Palantir制造与经营案例",
+      "discoveredFrom": "https://www.cognite.com/en/resources/customer-stories",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://www.cognite.com/en/resources/customer-stories/cognite-and-equinor-leverage-robotics-and-ai-to-reinvent-safer-smarter-field-operations",
+      "title": "Customer StoryCognite and Equinor Leverage Robotics and AI to Reinvent Safer, Smarter Field Operations",
+      "channel": "非Palantir制造与经营案例",
+      "discoveredFrom": "https://www.cognite.com/en/resources/customer-stories",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://a16z.com/podcast/how-enterprise-ai-really-gets-deployed/",
+      "title": "How Enterprise AI Really Gets Deployed",
+      "channel": "播客与创始人访谈",
+      "discoveredFrom": "https://a16z.com/podcasts/a16z-show/",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://a16z.com/podcast/building-ai-agents-for-enterprise-operations/",
+      "title": "Building AI Agents for Enterprise Operations",
+      "channel": "播客与创始人访谈",
+      "discoveredFrom": "https://a16z.com/podcasts/a16z-show/",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://a16z.com/podcast/inside-palantir-building-software-that-matters-with-shyam-sankar/",
+      "title": "Inside Palantir: Building Software That Matters with Shyam Sankar",
+      "channel": "播客与创始人访谈",
+      "discoveredFrom": "https://a16z.com/podcasts/a16z-show/",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://a16z.com/podcast/palantir-ceo-alex-karp-on-the-zero-sum-ai-race/",
+      "title": "Palantir CEO Alex Karp on the Zero-Sum AI Race",
+      "channel": "播客与创始人访谈",
+      "discoveredFrom": "https://a16z.com/podcasts/a16z-show/",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://a16z.com/podcast/big-ideas-2026-the-enterprise-orchestration-layer/",
+      "title": "Big Ideas 2026: The Enterprise Orchestration Layer",
+      "channel": "播客与创始人访谈",
+      "discoveredFrom": "https://a16z.com/podcasts/a16z-show/",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://www.aboutamazon.com/news/innovation-at-amazon/seller-assistant-plugin-amazon-quick-claude?utm_source=rss",
+      "title": "Amazon gives sellers an even smarter Seller Assistant and a new plugin for Amazon Quick and Anthropic’s Claude",
+      "channel": "企业与作者订阅相关候选（需核对适用范围）",
+      "discoveredFrom": "https://www.aboutamazon.com/rss/feed.rss",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/media/how-xytech-ai-cut-media-production-scheduling-from-hours-to-minutes-with-aws/",
+      "title": "How Xytech AI cut media production scheduling from hours to minutes with AWS",
+      "channel": "企业与作者订阅相关候选（需核对适用范围）",
+      "discoveredFrom": "https://aws.amazon.com/blogs/media/feed/",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/ai-for-call-centers",
+      "title": "AI for call centers: an operating and rollout guide",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/building-sierras-mcp-gateway-an-engineering-iceberg",
+      "title": "Building Sierra’s MCP Gateway: An engineering iceberg",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/agent-strategist-your-phd-in-applied-ai",
+      "title": "Agent Strategist: Your PhD in applied AI",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/agent-monitoring",
+      "title": "Who monitors the monitors?",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/context-engineering-the-key-to-great-agents",
+      "title": "Context engineering: the key to great agents",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/model-failover",
+      "title": "Preserving agent behavior while serving LLMs reliably",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/sierra-and-stellarus",
+      "title": "Sierra and Stellarus: Advancing a new model for AI-powered healthcare member experience",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/workspaces",
+      "title": "Workspaces: move fast without breaking things",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/siriusxm-adp-announcement",
+      "title": "SiriusXM and Sierra announce a deeper collaboration with the launch of Agent Data Platform",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/ai-agents-in-action-safelite",
+      "title": "Change agents: Safelite",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/ai-agents-in-action-redfin",
+      "title": "Change agents: Redfin",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/agent-data-platform",
+      "title": "Introducing Agent Data Platform",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/ai-agents-in-action-funnel-leasing",
+      "title": "Change agents: Funnel Leasing",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/ai-agents-in-action-rocket-mortgage",
+      "title": "Change agents: Rocket Mortgage",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/ai-agents-in-action-chime",
+      "title": "Change agents: Chime",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/load-testing",
+      "title": "Load testing: how Sierra scales for surges",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/enterprise-grade-agents",
+      "title": "From LLMs to enterprise-grade agents",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/agent-traces",
+      "title": "Agent Traces: getting to the fix, fast",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/ai-agents-in-action-brex",
+      "title": "Change agents: Brex",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/benchmarking-agents-in-collaborative-real-world-scenarios",
+      "title": "𝜏²-bench: benchmarking agents in collaborative real-world scenarios",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/ai-agents-in-action",
+      "title": "Change agents: Minted",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/shipping-and-scaling-ai-agents",
+      "title": "Shipping and scaling AI agents",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/meet-the-ai-agent-engineer",
+      "title": "Meet the AI agent engineer",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://sierra.ai/uk/blog/agent-development-life-cycle",
+      "title": "The Agent Development Life Cycle",
+      "channel": "同类公司原始案例与交付方法（不自动认定FDE项目）",
+      "discoveredFrom": "https://sierra.ai/uk/rss.xml",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2012.09049",
+      "title": "View PDF",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2012.09049",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/html/2012.09049v1",
+      "title": "HTML (experimental)",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2012.09049",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2109.03655",
+      "title": "View PDF",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2109.03655",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/html/2109.03655v1",
+      "title": "HTML (experimental)",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2109.03655",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30484",
+      "title": "Do LLMs Understand Context? A Knowledge Graph-Based Evaluation Framework",
+      "channel": "增量订阅相关论文候选",
+      "discoveredFrom": "https://rss.arxiv.org/rss/cs.AI",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30763",
+      "title": "HCOE: Hyperbolic Clinical Ontology Embeddings from Biomedical Language Models",
+      "channel": "增量订阅相关论文候选",
+      "discoveredFrom": "https://rss.arxiv.org/rss/cs.AI",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30805",
+      "title": "XPhysICS: Cross-Physical-Domain Threat Grounding for Industrial Control Systems Security",
+      "channel": "增量订阅相关论文候选",
+      "discoveredFrom": "https://rss.arxiv.org/rss/cs.AI",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.09163",
+      "title": "FlyAOC: Evaluating Agentic Ontology Curation of Drosophila Scientific Knowledge Bases",
+      "channel": "增量订阅相关论文候选",
+      "discoveredFrom": "https://rss.arxiv.org/rss/cs.AI",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2206.10318",
+      "title": "View PDF",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2206.10318",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/html/2206.10318v1",
+      "title": "HTML (experimental)",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2206.10318",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2404.06571",
+      "title": "View PDF",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2404.06571",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.15779",
+      "title": "View PDF",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.15779",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.15779v1",
+      "title": "HTML (experimental)",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.15779",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2602.03439",
+      "title": "View PDF",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2602.03439",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/html/2602.03439v1",
+      "title": "HTML (experimental)",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2602.03439",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2608.13662",
+      "title": "View PDF",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2608.13662",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/html/2608.13662v1",
+      "title": "HTML (experimental)",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2608.13662",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.30484",
+      "title": "View PDF",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.30484",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.30484v1",
+      "title": "HTML (experimental)",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.30484",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.30763",
+      "title": "View PDF",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.30763",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.30763v1",
+      "title": "HTML (experimental)",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.30763",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.30805",
+      "title": "View PDF",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.30805",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.30805v1",
+      "title": "HTML (experimental)",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.30805",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2602.09163",
+      "title": "View PDF",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2602.09163",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/html/2602.09163v2",
+      "title": "HTML (experimental)",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2602.09163",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.31871",
+      "title": "IndustryLLM: Failure-Driven LLM Training for Industrial Procurement",
+      "channel": "增量订阅相关论文候选",
+      "discoveredFrom": "https://rss.arxiv.org/rss/cs.AI",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.34540",
+      "title": "APOLO: Automatic Prompt Optimization for Ontology Learning",
+      "channel": "增量订阅相关论文候选",
+      "discoveredFrom": "https://rss.arxiv.org/rss/cs.AI",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.35184",
+      "title": "5W1H+Which: Context-Valid Semantic Indexing with Progressive Ontology Binding",
+      "channel": "增量订阅相关论文候选",
+      "discoveredFrom": "https://rss.arxiv.org/rss/cs.AI",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.35298",
+      "title": "Training-Free Clinical Reasoning through Medical Ontologies and Cognitive Mapping: A Symbolic-Probabilistic Knowledge Graph Framework",
+      "channel": "增量订阅相关论文候选",
+      "discoveredFrom": "https://rss.arxiv.org/rss/cs.AI",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.35400",
+      "title": "Structural Alignment for Reliable Industrial AI: Bridging Physical Reality, Data, Models, and Human Intent",
+      "channel": "增量订阅相关论文候选",
+      "discoveredFrom": "https://rss.arxiv.org/rss/cs.AI",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.31690",
+      "title": "Adapting Vision-Language Models for Human-Readable XAI in Industrial Object Detection",
+      "channel": "增量订阅相关论文候选",
+      "discoveredFrom": "https://rss.arxiv.org/rss/cs.AI",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.30805v2",
+      "title": "HTML (experimental)",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.30805",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    }
+  ]
+}

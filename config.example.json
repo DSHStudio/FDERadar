@@ -1,0 +1,15 @@
+{
+  "schema": "fde-radar.config/v1",
+  "sdkVersion": "0.1.5rc1",
+  "provider": "deepseek-official",
+  "model": "deepseek-v4-flash",
+  "baseUrl": "https://api.deepseek.com",
+  "credentialEnvironment": "DEEPSEEK_API_KEY",
+  "credentialFile": ".credentials.yaml",
+  "corpusPath": "examples/empty-corpus",
+  "maxModelRequests": 12,
+  "maxToolCalls": 24,
+  "maxOutputTokens": 12288,
+  "turnTimeoutSeconds": 300,
+  "initializeTimeoutSeconds": 120
+}
