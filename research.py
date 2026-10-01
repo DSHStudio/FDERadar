@@ -182,14 +182,16 @@ class ResearchService:
             db.execute('INSERT INTO research_progress_events(id,status,notes,updatedAt) VALUES(:id,:status,:notes,:updatedAt)', value)
         return {**value, 'meaning': '个人学习自记，不是系统考核或项目验收'}
 
-    def state(self):
+    def state(self, scopes=None):
         result, errors = self._config()
         with self.store.db() as db:
             docs = [dict(r) for r in db.execute('SELECT * FROM documents ORDER BY retrievedAt,id')]
             progress = {r['id']: dict(r) for r in db.execute('SELECT * FROM research_progress')}
             tables = {r[0] for r in db.execute("SELECT name FROM sqlite_master WHERE type='table'")}
             sources = [dict(r) for r in db.execute('SELECT * FROM pipeline_sources')] if 'pipeline_sources' in tables else []
-        validator = ReferenceValidator(docs, document_scopes(self.store, docs, tables))
+        validator = ReferenceValidator(
+            docs,
+            document_scopes(self.store, docs, tables) if scopes is None else scopes)
         unresolved = validate_research(result, progress, validator.validate)
         gaps = acquisition_gaps(result['cases'], sources, validator.latest)
         result.update(generatedAt=utc(), changes=version_changes(docs),

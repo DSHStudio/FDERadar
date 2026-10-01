@@ -142,9 +142,9 @@ def catalog(store, documents):
         document.update(tracks=sorted(assigned), format=fmt, contentScope=scope, quality=quality, publishedAt=(metadata.get('meta') or {}).get('article:published_time'), acquisitionJobSource=result.get('requestedUrl'), semanticVerification='not_verified')
     return documents
 
-def measured_coverage(pipeline, documents):
+def measured_coverage(pipeline, documents, batch=None):
     from collections import Counter
-    result = pipeline.coverage()
+    result = pipeline.coverage() if batch is None else batch
     latest = {}
     for d in sorted(documents, key=lambda x: x['retrievedAt']):
         latest[d['url'].rstrip('/')] = d

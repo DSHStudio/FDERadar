@@ -104,8 +104,18 @@ class Store:
 
     @contextlib.contextmanager
     def db(self):
+        # WAL keeps the read-only workbench polling from blocking acquisition
+        # writes (and vice versa); NORMAL is durable enough for this local
+        # evidence store and much cheaper than the default FULL.
         db = sqlite3.connect(self.path, timeout=15)
         db.row_factory = sqlite3.Row
+        db.execute('PRAGMA busy_timeout=5000')
+        try:
+            db.execute('PRAGMA journal_mode=WAL')
+        except sqlite3.OperationalError:
+            # A concurrent writer may hold the switch; WAL is persistent once set.
+            pass
+        db.execute('PRAGMA synchronous=NORMAL')
         try:
             with db:
                 yield db
@@ -140,7 +150,7 @@ class Store:
             db.execute('INSERT INTO runs VALUES(?,?,?,?,?,?)',(run,'RUNNING',task,utc(),None,None))
         return run
 
-    def library(self, kind, query=''):
+    def library(self, kind, query='', batch=None):
         if kind=='research':
             from research import ResearchService
             state=ResearchService(self).state()
@@ -158,7 +168,7 @@ class Store:
                     [dict(r) for r in db.execute('SELECT id,url,access FROM documents')],
                     [dict(r) for r in db.execute('SELECT runId,kind,payload FROM events')])
             from pipeline import Pipeline
-            report['batchAcquisition']=Pipeline(self).coverage()
+            report['batchAcquisition']=batch if batch is not None else Pipeline(self).coverage()
             report['collectorDistinction']='dshFetched统计DSH直接工具调用；batchAcquisition统计后台实际采集，可用radar_library documents查询、radar_read读取；两者不相加作为独立证据数。'
             return report
         if kind not in {'sources','records','documents','notes'}:
