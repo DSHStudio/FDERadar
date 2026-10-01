@@ -49,7 +49,7 @@ DSH 插件打包：`./Run-DshPlugin.ps1 -Action pack`，生成本地 `dist/`。�
 ./Run-Radar.ps1 -Action report
 ```
 
-首次初始化导入相邻的本体与FDE_数据底稿，不改写原JSON。启动器优先本项目.venv；当前开发环境可复用相邻DOA已安装的匹配SDK解释器，但不导入DOA业务代码、不修改其配置。独立安装使用Python 3.12或更新版本、requirements.txt，并通过-Python指定解释器；本机验证解释器为3.13.15。
+首次初始化导入相邻的本体与FDE_数据底稿，不改写原JSON。启动器优先本项目.venv；当前开发环境可复用相邻DOA已安装的匹配SDK解释器，但不导入DOA业务代码、不修改其配置。定时周期若由相邻解释器启动且缺少DSH SDK，会在任何采集开始前交由本项目已安装的.venv运行；缺少两套SDK时保留分析失败回执。独立安装使用Python 3.12或更新版本、requirements.txt，并通过-Python指定解释器；本机验证解释器为3.13.15。
 
 config.json只存受管凭据文件位置和环境变量名。优先读取DEEPSEEK_API_KEY，否则读取已有DSH受管引用；不复制或展示密钥。使用现有DeepSeek模型服务，联网及模型调用需有可用权限与额度。
 

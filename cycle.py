@@ -1,12 +1,48 @@
 """One unattended, bounded acquisition-and-analysis cycle invoked by the existing heartbeat."""
 import argparse
+import importlib.util
 import json
+import re
+from pathlib import Path
+import subprocess
+import sys
+from urllib.parse import urlsplit
 from agent import Store,execute,utc,ROOT
 from acquisition import acquire
 from functools import partial
 from pipeline import Pipeline
 from expand_collection import expand
 from catalog import catalog
+
+
+def project_runtime_fallback(current_executable, project_root=ROOT):
+    """Use this project's installed DSH SDK when the launching Python lost it."""
+    if importlib.util.find_spec('deepseek_harness') is not None:
+        return None
+    candidate = project_root / '.venv' / 'Scripts' / 'python.exe'
+    if candidate.is_file() and candidate.resolve() != Path(current_executable).resolve():
+        return candidate
+    return None
+
+
+def distinct_analysis_sources(documents, limit):
+    """Read one representation per arXiv paper in a single model batch."""
+    if limit <= 0:
+        return []
+    selected, seen = [], set()
+    for document in documents:
+        url = document['url']
+        parts = urlsplit(url)
+        paper = (re.fullmatch(r'/(?:abs|pdf|html)/(\d{4}\.\d{4,5})(?:v\d+)?(?:\.pdf)?/?', parts.path)
+                 if parts.hostname == 'arxiv.org' else None)
+        key = ('arxiv', paper.group(1)) if paper else ('url', url.rstrip('/'))
+        if key in seen:
+            continue
+        seen.add(key)
+        selected.append(document)
+        if len(selected) >= limit:
+            break
+    return selected
 
 
 def cycle(store,config,scheduled=False,analysis_limit=3):
@@ -31,7 +67,8 @@ def cycle(store,config,scheduled=False,analysis_limit=3):
     with store.db() as db:
         docs=[dict(r) for r in db.execute("SELECT id,url,title,sha256,access,retrievedAt,length(content) chars FROM documents WHERE access='body_fetched_not_semantically_verified' ORDER BY retrievedAt DESC")]
         processed={r[0] for r in db.execute("SELECT json_extract(payload,'$.documentId') FROM notes WHERE status IN ('pending_review','accepted','rejected')")}
-    docs=[d for d in catalog(store,docs) if d['quality']=='evidence_text' and d['id'] not in processed][:analysis_limit]
+    docs=distinct_analysis_sources(
+        [d for d in catalog(store,docs) if d['quality']=='evidence_text' and d['id'] not in processed], analysis_limit)
     for document in docs:
         selected={k:document[k] for k in ['id','url','title','tracks','contentScope']}
         task=('增量资料学习加工。只阅读以下真实入库文档，不进行搜索、不重新获取。每份先radar_read后产出至多1条有精确短引的笔记；内容不足不强行提交。'+
@@ -69,6 +106,9 @@ def cycle(store,config,scheduled=False,analysis_limit=3):
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--scheduled',action='store_true');parser.add_argument('--analysis-limit',type=int,choices=range(0,4),default=3)
+    delegate = project_runtime_fallback(sys.executable)
+    if delegate:
+        raise SystemExit(subprocess.call([str(delegate), '-B', str(ROOT/'cycle.py'), *sys.argv[1:]], cwd=ROOT))
     args=parser.parse_args();cfg=json.loads((ROOT/'config.json').read_text(encoding='utf-8-sig'))
     value=cycle(Store(ROOT/'var'),cfg,args.scheduled,args.analysis_limit)
     print(json.dumps(value,ensure_ascii=False,indent=2))

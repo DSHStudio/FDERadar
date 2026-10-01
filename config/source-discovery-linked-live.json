@@ -749,6 +749,236 @@
       "dshTested": false,
       "discoveryLimit": 0,
       "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.31871",
+      "title": "View PDF",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.31871",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.31871v1",
+      "title": "HTML (experimental)",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.31871",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.34540",
+      "title": "View PDF",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.34540",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.34540v1",
+      "title": "HTML (experimental)",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.34540",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.35184",
+      "title": "View PDF",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.35184",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.35184v1",
+      "title": "HTML (experimental)",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.35184",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.35298",
+      "title": "View PDF",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.35298",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.35298v1",
+      "title": "HTML (experimental)",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.35298",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.35400",
+      "title": "View PDF",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.35400",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.31690",
+      "title": "View PDF",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.31690",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.36082",
+      "title": "GeoOutageBench: Benchmarking Ambiguity-aware, Ontology-grounded Geospatiotemporal KGQA for Multimodal Power Outage and Resilience Analysis",
+      "channel": "增量订阅相关论文候选",
+      "discoveredFrom": "https://rss.arxiv.org/rss/cs.AI",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.37458",
+      "title": "CRASM-Gate: Deterministic-First Constraint- and Role-Aware Semantic Mapping with Selective Model Assistance Across Heterogeneous Industrial Standards",
+      "channel": "增量订阅相关论文候选",
+      "discoveredFrom": "https://rss.arxiv.org/rss/cs.AI",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.36559",
+      "title": "HiTS-CL: A Continual Learning Framework for Long-Horizon Temporal Knowledge Graph Extrapolation",
+      "channel": "增量订阅相关论文候选",
+      "discoveredFrom": "https://rss.arxiv.org/rss/cs.AI",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.36082",
+      "title": "View PDF",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.36082",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.36082v1",
+      "title": "HTML (experimental)",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.36082",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.37458",
+      "title": "View PDF",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.37458",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.37458v1",
+      "title": "HTML (experimental)",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.37458",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.36559",
+      "title": "View PDF",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.36559",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.36559v1",
+      "title": "HTML (experimental)",
+      "channel": "研究论文全文",
+      "discoveredFrom": "https://arxiv.org/abs/2609.36559",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.19001",
+      "title": "Life-Bench: A Benchmark and Knowledge Graph Framework for Multimodal Personalization Beyond Concept Recognition",
+      "channel": "增量订阅相关论文候选",
+      "discoveredFrom": "https://rss.arxiv.org/rss/cs.AI",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.39232",
+      "title": "What Streaming Anomaly Detection Finds (and Misses) in Industrial Time Series",
+      "channel": "增量订阅相关论文候选",
+      "discoveredFrom": "https://rss.arxiv.org/rss/cs.AI",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.27023",
+      "title": "Boosting Knowledge Graph Foundation Models via Enhanced Negative Sampling",
+      "channel": "增量订阅相关论文候选",
+      "discoveredFrom": "https://rss.arxiv.org/rss/cs.AI",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.23234",
+      "title": "Edge-Aware and Content-Adaptive Infrared Gas Leak Detection for Industrial Safety Monitoring",
+      "channel": "增量订阅相关论文候选",
+      "discoveredFrom": "https://rss.arxiv.org/rss/cs.AI",
+      "stage": "candidate",
+      "dshTested": false,
+      "discoveryLimit": 0,
+      "caution": "从已取得原始页面发现；需单独获取并核对相关性、年代与证据范围。"
     }
   ]
 }
