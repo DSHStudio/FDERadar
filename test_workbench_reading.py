@@ -106,7 +106,7 @@ class WorkbenchReadingTests(unittest.TestCase):
             code, body, headers = self.request('GET', '/' + name)
             self.assertEqual(code, 200, name)
             self.assertIn('application/javascript', headers['Content-Type'])
-            self.assertEqual(body, (ROOT / 'web' / name).read_text(encoding='utf-8'))
+            self.assertEqual(body.encode('utf-8'), (ROOT / 'web' / name).read_bytes())
         for path in ('/config.json', '/assets.json', '/../config.json', '/test_reader.js', '/test_support/load_ui.cjs'):
             self.assertEqual(self.request('GET', path)[0], 404, path)
 
